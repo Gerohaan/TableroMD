@@ -102,9 +102,9 @@ module.exports = function (ctx) {
       // workboxPluginMode: 'InjectManifest',
       // workboxOptions: {}, // only for NON InjectManifest
       manifest: {
-        // name: 'Quasar Apex Charts',
-        // short_name: 'Quasar Apex Charts',
-        // description: 'A Quasar Framework app',
+        // name: 'Tablero',
+        // short_name: 'Tablero App',
+        // description: 'Tablero app',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
