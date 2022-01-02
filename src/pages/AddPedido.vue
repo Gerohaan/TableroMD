@@ -163,7 +163,7 @@
                 Vendedor
               </div>
                 <q-carousel
-                  v-model="slide"
+                  v-model="slide1"
                   transition-prev="slide-right"
                   transition-next="slide-left"
                   animated
@@ -242,7 +242,7 @@
                 Domiciliario/Transportadora
               </div>
                  <q-carousel
-                  v-model="slide"
+                  v-model="slide2"
                   transition-prev="slide-right"
                   transition-next="slide-left"
                   animated
@@ -440,6 +440,7 @@
             </q-card>
           </q-card-section>
         </q-card>
+
         
 
         <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-12">
@@ -460,6 +461,7 @@
               </q-card>
           </q-card-section>
         </q-card>
+        
 
         
 
@@ -481,47 +483,14 @@ import CardBase from 'components/CardBase'
 export default {
   name: 'AddPedido',
   components: {
-    CardBase,
-    ApexColumn: () => import('components/ApexColumn'),
-    ApexColumnWithScroll: () => import('components/ApexColumnWithScroll'),
-    ApexArea: () => import('components/ApexArea'),
-    ApexDonut: () => import('components/ApexDonut'),
-    ApexLine: () => import('components/ApexLine'),
-    ApexLineGradient: () => import('components/ApexLineGradient'),
-    ApexMultipleRadialBars: () => import('components/ApexMultipleRadialBars'),
-    ApexHeatmap: () => import('components/ApexHeatmap'),
-    ApexRadialBar: () => import('components/ApexRadialBar'),
-    ApexBubble: () => import('components/ApexBubble'),
-    ApexRadar: () => import('components/ApexRadar'),
-    Card1: () => import('components/Card1'),
-    Card2: () => import('components/Card2'),
-    Card3: () => import('components/Card3'),
-    Card4: () => import('components/Card4'),
-    ApexPolarMap: () => import('components/ApexPolarMap'),
-    ApexCandleStick: () => import('components/ApexCandleStick'),
-    ApexLineColumn: () => import('components/ApexLineColumn'),
-    ApexTreemap: () => import('components/ApexTreemap'),
-    ApexLineScatter: () => import('components/ApexLineScatter'),
-    ApexBarChartsGrouped: () => import('components/ApexBarChartsGrouped'),
-    ApexColumnChartsBasic: () => import('components/ApexColumnChartsBasic'),
-    ApexColumnWithDataLabels: () => import('components/ApexColumnWithDataLabels'),
-    ApexLineColumnWithScroll: () => import('components/ApexLineColumnWithScroll'),
-    ApexLineWithDataLabels: () => import('components/ApexLineWithDataLabels'),
-    ApexMultipleYaxis: () => import('components/ApexMultipleYaxis'),
-    ApexSimplePieChart: () => import('components/ApexSimplePieChart'),
-    ApexStackedColumns100: () => import('components/ApexStackedColumns100')
+    CardBase
   },
   data () {
     return {
       loading: true,
       dialog: true,
-      colors: [
-        'linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%)',
-        'linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%)',
-        'linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%)',
-        'linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%)'
-      ],
-      slide: 1
+      slide1: 1,
+      slide2: 2,
     }
   },
   created () {
