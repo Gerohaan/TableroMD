@@ -165,8 +165,7 @@
         <!--
           aqui puede ir un avatar o identificacion de usuario
           -->
-          <q-img class="absolute-top" src="https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?size=626&ext=jpg">
-          </q-img>
+          
       </q-drawer>
 
     <q-page-container>
