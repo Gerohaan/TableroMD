@@ -1,0 +1,544 @@
+<template>
+  <q-page class="container" style="background: #EFEFEF;">
+    <div
+      class="row q-col-gutter-md q-px-md q-pt-md q-pa-none justify-center"
+    >
+     <p class="text-h4 text-bold text-purple-10 q-pt-xl">
+       Agregar Nuevo Pedido
+      </p> 
+    </div>
+    <div
+      class="row q-col-gutter-md q-px-md q-py-md"
+    >
+      <!-- Cliente inicio -->
+      <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
+        <q-card square flat>
+          <q-card-section class="q-pa-md">
+            <div class="text-h6 text-bold text-purple-10">Cliente</div>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Documento de Identidad
+            </div>
+                <q-input filled >
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="branding_watermark" />
+                  </template>
+                </q-input>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Nombre del Cliente
+            </div>
+            <q-select filled >
+              <template v-slot:prepend>
+                <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="person" />
+              </template>
+            </q-select>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Celular
+            </div>
+            <q-input filled >
+              <template v-slot:prepend>
+                <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="phone" />
+              </template>
+            </q-input>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Correo
+            </div>
+            <q-input filled >
+              <template v-slot:prepend>
+                <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="email" />
+              </template>
+            </q-input>
+          </q-card-section>
+        </q-card>
+      </div>
+      <!-- Cliente fin -->
+      <!-- Informacion Inicio -->
+      <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
+        <q-card square flat>
+          <q-card-section>
+            <div class="text-h6 text-bold text-purple-10">Información</div>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Ciudad
+            </div>
+                <q-select filled >
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="location_city" />
+                  </template>
+                </q-select>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Barrio
+            </div>
+                <q-input filled >
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="local_convenience_store" />
+                  </template>
+                </q-input>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Direrección
+            </div>
+                <q-select filled >
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="map" />
+                  </template>
+                </q-select>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
+              Nota Dirección
+            </div>
+                <q-input filled autogrow />
+          </q-card-section>
+        </q-card>
+      </div>
+      <!-- Informacion Fin -->
+
+    
+        
+
+    <div class="row col-12">
+      <!-- Producto Inicio -->
+        <q-card square flat class="col col-md-12 col-lg-12 col-xs-12 col-sm-12 col-xl-12 q-pa-none">
+          <q-card-section>
+              <q-card-section class="q-pa-none">
+                <div class="text-h6 text-bold text-purple-10">Producto</div>
+              </q-card-section>
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-4 col-lg-4 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-md">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Bodega
+              </div>
+                <q-select filled>
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="store_mall_directory" />
+                  </template>
+                </q-select>
+           
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-4 col-lg-4 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-md">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Precio
+              </div>
+                <q-input filled>
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="attach_money" />
+                  </template>
+                </q-input>
+           
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-4 col-lg-4 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-md">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Impuesto
+              </div>
+                <q-input filled>
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="receipt" />
+                  </template>
+                </q-input>
+           
+          </q-card-section>
+        </q-card>
+        <!-- Carrusel Vendedor inicio -->
+        <q-card square flat class="col col-md-6 col-lg-6 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-md">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Vendedor
+              </div>
+                <q-carousel
+                  v-model="slide"
+                  transition-prev="slide-right"
+                  transition-next="slide-left"
+                  animated
+                  control-type="push" 
+                  control-color="purple-10"
+                  padding
+                  arrows
+                  height="200px"
+                  class="bg-white"
+                >
+                <q-carousel-slide :name="1" class="column no-wrap">
+                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
+                    <q-card square>
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre Vendedor
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                    <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Vendedor
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                     <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Vendedor
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                     <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Vendedor
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+                </q-carousel-slide>
+                <q-carousel-slide :name="2" class="column no-wrap">
+                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
+                    <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Vendedor
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                    <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Vendedor
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+                </q-carousel-slide>
+                </q-carousel>
+           
+          </q-card-section>
+        </q-card>
+        <!-- Carrusel Vendedor fin --> 
+        <!-- Carrusel Domiciliario/Transportadora inicio -->
+        <q-card square flat class="col col-md-6 col-lg-6 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-md">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Domiciliario/Transportadora
+              </div>
+                 <q-carousel
+                  v-model="slide"
+                  transition-prev="slide-right"
+                  transition-next="slide-left"
+                  animated
+                  control-type="push" 
+                  control-color="purple-10"
+                  padding
+                  arrows
+                  height="200px"
+                  class="bg-white"
+                >
+                <q-carousel-slide :name="1" class="column no-wrap">
+                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
+                    <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                    <q-card square>
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                     <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                     <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+                </q-carousel-slide>
+                <q-carousel-slide :name="2" class="column no-wrap">
+                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
+                    <q-card square>
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                    <q-card square>
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                     <q-card square>
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                     <q-card square>
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre de Domiciliario
+                        </div>
+                      </q-card-section>
+                    </q-card>
+                  </div>
+                </q-carousel-slide>
+                </q-carousel>
+           
+          </q-card-section>
+        </q-card>
+        <!-- Carrusel Domiciliario/Transportadora fin -->
+        <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Código
+              </div>
+                <q-input filled>
+                  <template v-slot:prepend>
+                    <q-icon name="search" />
+                  </template>
+                </q-input>
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Producto
+              </div>
+                <q-input filled/>
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Precio
+              </div>
+              <q-input filled/>
+           </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-1 col-lg-1 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Cantidad
+              </div>
+              <q-input filled/>
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Total
+              </div>
+              <q-input filled/>
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Impuesto
+              </div>
+              <q-input filled/>
+          </q-card-section>
+        </q-card>
+        <q-card square flat class="col col-md-1 col-lg-1 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Descuento
+              </div>
+              <q-input filled/>
+          </q-card-section>
+        </q-card>
+
+        <q-card square flat class="col col-md-12 col-lg-12 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm" align="center">
+            <q-btn color="purple-10" no-caps>
+              <div class="text-left text-white text-weight-medium">
+                Agregar Producto
+              </div>
+            </q-btn>
+          </q-card-section>
+        </q-card>
+
+
+        <q-card square flat class="col col-md-6 col-lg-6 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm">
+            <div class="text-left text-purple-10 text-weight-medium">
+                Observaciones
+            </div>
+            <q-input type="textarea" rows="11" filled></q-input>
+          </q-card-section>
+        </q-card>
+
+        
+        <q-card square flat class="col col-md-4 col-lg-4 col-xs-12 col-sm-12 col-xl-12 q-pa-md">
+          <q-card-section>
+            <q-card>
+              <q-card-section>
+                  <div class="row q-pa-sm">
+                    <div class="col text-purple-10 text-weight-medium">Subtotal</div>
+                    <input input-style="" type="text" class="outlinenone" />
+                  </div>
+                  <div class="row q-pa-sm">
+                    <div class="col text-purple-10 text-weight-medium">Descuentos</div>
+                    <div><input type="text" class="outlinenone"/></div>
+                  </div>
+                  <div class="row q-pa-sm">
+                    <div class="col text-purple-10 text-weight-medium">Impuesto</div>
+                    <div><input input-style="" type="text" class="outlinenone" /></div>
+                  </div>
+                  <div class="row q-pa-sm">
+                    <div class="col text-purple-10 text-weight-medium">Envío</div>
+                    <div><input input-style="" type="text" class="outlinenone" /></div>
+                  </div>
+                  <div class="row q-pa-sm">
+                    <div class="col text-purple-10 text-weight-medium">Total</div>
+                    <div><input input-style="" type="text" class="outlinenone" /></div>
+                  </div>
+              </q-card-section>
+            </q-card>
+          </q-card-section>
+        </q-card>
+        
+
+        <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-12">
+          <q-card-section class="q-pa-sm q-mt-lg" align="center">
+             <q-card square flat bordered class="bg-purple-10 text-white">
+                <q-card-section>
+                  <q-avatar color="white" size="xl" text-color="purple-10" icon="credit_card"/>
+                  <div class="text-body1">Credito</div>
+                </q-card-section>
+              </q-card>
+          </q-card-section>
+          <q-card-section class="q-pa-sm q-mt-none" align="center">
+             <q-card square flat bordered class="bg-white text-purple-10">
+                <q-card-section>
+                  <q-avatar color="purple-10" size="xl" text-color="white" icon="verified"/>
+                  <div class="text-body1">Garantía</div>
+                </q-card-section>
+              </q-card>
+          </q-card-section>
+        </q-card>
+
+        
+
+        
+        <!-- Producto fin -->
+
+
+    </div>
+
+  </div>
+       
+      
+      
+  </q-page>
+</template>
+
+<script>
+import CardBase from 'components/CardBase'
+export default {
+  name: 'AddPedido',
+  components: {
+    CardBase,
+    ApexColumn: () => import('components/ApexColumn'),
+    ApexColumnWithScroll: () => import('components/ApexColumnWithScroll'),
+    ApexArea: () => import('components/ApexArea'),
+    ApexDonut: () => import('components/ApexDonut'),
+    ApexLine: () => import('components/ApexLine'),
+    ApexLineGradient: () => import('components/ApexLineGradient'),
+    ApexMultipleRadialBars: () => import('components/ApexMultipleRadialBars'),
+    ApexHeatmap: () => import('components/ApexHeatmap'),
+    ApexRadialBar: () => import('components/ApexRadialBar'),
+    ApexBubble: () => import('components/ApexBubble'),
+    ApexRadar: () => import('components/ApexRadar'),
+    Card1: () => import('components/Card1'),
+    Card2: () => import('components/Card2'),
+    Card3: () => import('components/Card3'),
+    Card4: () => import('components/Card4'),
+    ApexPolarMap: () => import('components/ApexPolarMap'),
+    ApexCandleStick: () => import('components/ApexCandleStick'),
+    ApexLineColumn: () => import('components/ApexLineColumn'),
+    ApexTreemap: () => import('components/ApexTreemap'),
+    ApexLineScatter: () => import('components/ApexLineScatter'),
+    ApexBarChartsGrouped: () => import('components/ApexBarChartsGrouped'),
+    ApexColumnChartsBasic: () => import('components/ApexColumnChartsBasic'),
+    ApexColumnWithDataLabels: () => import('components/ApexColumnWithDataLabels'),
+    ApexLineColumnWithScroll: () => import('components/ApexLineColumnWithScroll'),
+    ApexLineWithDataLabels: () => import('components/ApexLineWithDataLabels'),
+    ApexMultipleYaxis: () => import('components/ApexMultipleYaxis'),
+    ApexSimplePieChart: () => import('components/ApexSimplePieChart'),
+    ApexStackedColumns100: () => import('components/ApexStackedColumns100')
+  },
+  data () {
+    return {
+      loading: true,
+      dialog: true,
+      colors: [
+        'linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%)',
+        'linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%)',
+        'linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%)',
+        'linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%)'
+      ],
+      slide: 1
+    }
+  },
+  created () {
+    this.$q.loading.show({
+      backgroundColor: 'purple-10',
+      delay: 0
+    })
+    setTimeout(() => {
+      this.$q.loading.hide()
+    }, 1300)
+  }
+}
+</script>
+<style>
+.outlinenone {
+    outline: none;
+    background-color: #E6E6E6;
+    border: 0;
+  }
+</style>
