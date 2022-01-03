@@ -66,7 +66,7 @@
         </q-card>
         <q-card  flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="card_giftcard" />
+          <q-btn outline round color="purple-10" size="xl" icon="" />
             <div class="text-subtitle2">Acceso #7</div>
           </q-card-section>
         </q-card>
