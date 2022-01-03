@@ -6,37 +6,61 @@
        <q-tabs shrink>
          <q-card flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="system_security_update_good" />
+            <q-btn outline round color="purple-10" size="25px">
+              <q-avatar size="50px" rounded>
+                <q-img src="../../public\IconosPrincipales\venta_online.svg"/>
+              </q-avatar>
+            </q-btn>
             <div class="text-subtitle2">Ventas Online</div>
           </q-card-section>
         </q-card>
         <q-card  flat align="center">
             <q-card-section>
-            <q-btn outline round color="purple-10" size="xl" icon="point_of_sale" />
+            <q-btn outline round color="purple-10" size="25px">
+              <q-avatar size="50px" rounded>
+                <q-img height="50px" width="30px" src="../../public\IconosPrincipales\VentaPOS.svg"/>
+              </q-avatar>
+            </q-btn>
               <div class="text-subtitle2">Ventas POS</div>
             </q-card-section>
           </q-card>
         <q-card  flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="person_add_alt" />
+          <q-btn outline round color="purple-10" size="25px">
+              <q-avatar size="50px" rounded>
+                <q-img src="../../public\IconosPrincipales\CrearTercero.svg"/>
+              </q-avatar>
+            </q-btn>
             <div class="text-subtitle2">Crear tercero</div>
           </q-card-section>
         </q-card>
         <q-card  flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="inventory_2" />
+          <q-btn outline round color="purple-10" size="25px">
+              <q-avatar size="50px" rounded>
+                <q-img height="40px" width="40px" src="../../public\IconosPrincipales\Producto.svg"/>
+              </q-avatar>
+            </q-btn>
             <div class="text-subtitle2">Producto</div>
           </q-card-section>
         </q-card>
         <q-card  flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="local_shipping" />
+          <q-btn outline round color="purple-10" size="25px">
+              <q-avatar size="50px" rounded>
+                <q-img src="../../public\IconosPrincipales\GestionarEnvio.svg"/>
+              </q-avatar>
+            </q-btn>
             <div class="text-subtitle2">Gestionar envío</div>
           </q-card-section>
         </q-card>
         <q-card flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="pivot_table_chart" />
+          <q-btn outline round color="purple-10" size="25px">
+              <q-avatar size="50px" rounded>
+                <q-img height="40px" width="40px" src="../../public\IconosPrincipales\Reportes.svg"/>
+              </q-avatar>
+            </q-btn>
             <div class="text-subtitle2">Reportes</div>
           </q-card-section>
         </q-card>
@@ -48,7 +72,11 @@
         </q-card>
         <q-card  flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="person_outline" />
+          <q-btn outline round color="purple-10" size="25px">
+              <q-avatar size="50px" rounded>
+                <q-img height="55px" width="45px" src="../../public\IconosPrincipales\Perfil.svg"/>
+              </q-avatar>
+            </q-btn>
             <div class="text-subtitle2">Perfil</div>
           </q-card-section>
         </q-card>
@@ -92,6 +120,15 @@
       <div class="col-md-6 col-sm-12 col-xs-12">
         <card-base>
           <apex-bar-charts-grouped></apex-bar-charts-grouped>
+        </card-base>
+      </div>
+      
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <card-base>
+          <q-img
+      src="../../public\IconosPrincipales\venta_online.svg"
+      style="height: 140px; max-width: 150px"
+    />
         </card-base>
       </div>
     
