@@ -481,13 +481,7 @@ export default {
       loading: true,
       dialog: true,
       slide1: 1,
-      slide2: 2,
-      photos: [
-        'https://via.placeholder.com/150/0000FF/808080?Text=Test%20Image%201',
-        'https://via.placeholder.com/150/FF0000/FFFFFF?Text=Test%20Image%202',
-        'https://via.placeholder.com/150/FFFF00/000000?Text=Test%20Image%203',
-        'https://via.placeholder.com/150/000000/FFFFFF/?text=Test%20Image%204',
-      ]
+      slide2: 2
     }
   },
   created () {
