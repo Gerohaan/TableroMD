@@ -122,15 +122,6 @@
           <apex-bar-charts-grouped></apex-bar-charts-grouped>
         </card-base>
       </div>
-      
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <card-base>
-          <q-img
-      src="../../public\IconosPrincipales\venta_online.svg"
-      style="height: 140px; max-width: 150px"
-    />
-        </card-base>
-      </div>
     
     </div>
   </q-page>
