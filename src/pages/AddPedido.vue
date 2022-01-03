@@ -607,7 +607,7 @@
 
         <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-2">
           <q-card-section class="q-pa-md">
-            <div class="text-left text-purple-10 text-weight-medium q-pa-sm q-mb-md">
+            <div class="text-left text-purple-10 text-weight-medium q-pa-xs q-mt-none">
                 Pago / No pago
             </div>
             <q-card-section horizontal class="q-mt-md">
