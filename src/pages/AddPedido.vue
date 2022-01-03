@@ -177,14 +177,6 @@
                 <q-carousel-slide :name="1" class="column no-wrap">
                   <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
                     <q-card square>
-                      <q-card-section class="bg-purple-10" align="center">
-                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
-                        <div class="text-center text-white text-caption q-pa-md">
-                          Nombre Vendedor
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
                       <q-card-section class="bg-white" align="center">
                         <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
                         <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
@@ -212,6 +204,14 @@
                 </q-carousel-slide>
                 <q-carousel-slide :name="2" class="column no-wrap">
                   <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
+                    <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Vendedor
+                        </div>
+                      </q-card-section>
+                    </q-card>
                     <q-card square>
                       <q-card-section class="bg-white" align="center">
                         <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
@@ -241,7 +241,7 @@
               <div class="text-left text-purple-10 text-weight-medium">
                 Domiciliario/Transportadora
               </div>
-                 <q-carousel
+                <q-carousel
                   v-model="slide2"
                   transition-prev="slide-right"
                   transition-next="slide-left"
@@ -256,18 +256,18 @@
                 <q-carousel-slide :name="1" class="column no-wrap">
                   <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
                     <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre de Domiciliario
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre Domiciliario
                         </div>
                       </q-card-section>
                     </q-card>
                     <q-card square>
-                      <q-card-section class="bg-purple-10" align="center">
-                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
-                        <div class="text-center text-white text-caption q-pa-md">
-                          Nombre de Domiciliario
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Domiciliario
                         </div>
                       </q-card-section>
                     </q-card>
@@ -275,51 +275,36 @@
                       <q-card-section class="bg-white" align="center">
                         <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
                         <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre de Domiciliario
+                          Nombre Domiciliario
                         </div>
                       </q-card-section>
                     </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre de Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
+                    
                   </div>
                 </q-carousel-slide>
                 <q-carousel-slide :name="2" class="column no-wrap">
                   <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
                     <q-card square>
-                      <q-card-section class="bg-purple-10" align="center">
-                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
-                        <div class="text-center text-white text-caption q-pa-md">
-                          Nombre de Domiciliario
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Domiciliario
                         </div>
                       </q-card-section>
                     </q-card>
                     <q-card square>
-                      <q-card-section class="bg-purple-10" align="center">
-                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
-                        <div class="text-center text-white text-caption q-pa-md">
-                          Nombre de Domiciliario
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Domiciliario
                         </div>
                       </q-card-section>
                     </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-purple-10" align="center">
-                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
-                        <div class="text-center text-white text-caption q-pa-md">
-                          Nombre de Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-purple-10" align="center">
-                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
-                        <div class="text-center text-white text-caption q-pa-md">
-                          Nombre de Domiciliario
+                    <q-card square>
+                      <q-card-section class="bg-white" align="center">
+                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
+                          Nombre Domiciliario
                         </div>
                       </q-card-section>
                     </q-card>
@@ -468,22 +453,28 @@
         
         <!-- Producto fin -->
 
-
     </div>
 
   </div>
        
-      
+      <div>
+    
+  </div>
       
   </q-page>
 </template>
 
 <script>
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+  // optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import CardBase from 'components/CardBase'
 export default {
   name: 'AddPedido',
   components: {
-    CardBase
+    CardBase,
+    VueSlickCarousel,
   },
   data () {
     return {
@@ -491,6 +482,12 @@ export default {
       dialog: true,
       slide1: 1,
       slide2: 2,
+      photos: [
+        'https://via.placeholder.com/150/0000FF/808080?Text=Test%20Image%201',
+        'https://via.placeholder.com/150/FF0000/FFFFFF?Text=Test%20Image%202',
+        'https://via.placeholder.com/150/FFFF00/000000?Text=Test%20Image%203',
+        'https://via.placeholder.com/150/000000/FFFFFF/?text=Test%20Image%204',
+      ]
     }
   },
   created () {

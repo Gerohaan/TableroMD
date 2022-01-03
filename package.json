@@ -16,7 +16,9 @@
     "core-js": "^3.6.5",
     "quasar": "^1.16.0",
     "vue-apexcharts": "^1.6.0",
-    "vue-i18n": "^8.18.2"
+    "vue-i18n": "^8.18.2",
+    "vue-simple-carousel": "^1.1.0",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "@quasar/app": "^2.2.10",
