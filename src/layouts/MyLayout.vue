@@ -1,22 +1,49 @@
 <template>
   <q-layout view="lHh LpR fFf">
 
-    <q-header class="bg-white text-purple-10">
-      <q-toolbar  class="row q-col-gutter-md q-px-md q-pt-md q-pa-none justify-center responsive"
-      key="lineSmall">
+    <q-header class="bg-white text-purple-10" elevated>
+      <q-toolbar>
 
       <!--
         notice shrink property since we are placing it
         as child of QToolbar
       -->
+      
       <q-btn 
         flat 
         round 
         dense 
         @click="leftDrawerOpen = !leftDrawerOpen"
-        aria-label="Menu"
-        icon="menu" />
+        aria-label="Menu" color="purple-10"
+        icon="menu" size="lg" />
         <q-space></q-space>
+        <q-tabs shrink align="right"> 
+        <q-btn
+            rounded 
+            no-caps
+            color="purple-10"
+            size="md"
+            label="Inicio"
+            class="q-mr-sm text-weight-regular"
+        />
+        <q-btn
+            rounded 
+            no-caps
+            color="purple-10"
+            size="md"
+            label="Centro de ayuda" 
+            class="q-mr-sm text-weight-regular"
+        />
+        <q-btn outline flat round icon="notifications" size="lg" class="q-mr-sm">
+          <div class="q-mt-md">
+              <q-badge rounded floating color="purple-10" class="q-mt-md q-ml-xs">4</q-badge>
+          </div>
+        </q-btn>
+        <q-btn class="q-ml-sm" size="sm" no-caps outline color="purple-10">
+          <div class="text-subtitle1">Nombre de usuario</div>
+          <q-icon class="q-ml-sm q-mr-none" left size="3em" name="account_circle" />
+        </q-btn>
+      </q-tabs>
     </q-toolbar>
       </q-header>
 
