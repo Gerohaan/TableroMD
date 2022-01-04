@@ -6,6 +6,7 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Dashboard.vue') },
       { path: 'addPedido', component: () => import('pages/AddPedido.vue') },
+      { path: 'proveedores', component: () => import('pages/Proveedores.vue') },
       //{ path: 'dashboard', component: () => import('pages/Dashboard.vue'), meta: { skeleton: true } },
       //{ path: 'dynamic', component: () => import('pages/Dynamic.vue'), meta: { skeleton: true } }
     ]
