@@ -18,7 +18,7 @@
           </q-card-section>
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
-              Documento de Identidad
+              Documento de identidad
             </div>
                 <q-input filled >
                   <template v-slot:prepend>
@@ -28,7 +28,7 @@
           </q-card-section>
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
-              Nombre del Cliente
+              Nombre del cliente
             </div>
             <q-select filled >
               <template v-slot:prepend>
@@ -87,7 +87,7 @@
           </q-card-section>
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
-              Direrección
+              Dirección
             </div>
                 <q-select filled >
                   <template v-slot:prepend>
@@ -97,7 +97,7 @@
           </q-card-section>
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
-              Nota Dirección
+              Nota dirección
             </div>
                 <q-input filled autogrow />
           </q-card-section>

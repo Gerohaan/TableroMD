@@ -12,11 +12,9 @@
          </div>
       </q-card-section>
       <q-card-actions align="right">
-        <q-btn flat>
-          <select class="bg-purple-10 text-white" name="" id="">
+          <select class="bg-purple-10 text-white q-mb-sm q-mr-sm" name="" id="" style="width: 60px">
             <option value="">Dia</option>
           </select>
-        </q-btn>
       </q-card-actions>
     </q-card>
     
