@@ -23,6 +23,9 @@ export default {
           height: 350,
           type: 'line',
           stacked: false,
+          toolbar: {
+            show: false,
+          }
         },
         dataLabels: {
           enabled: false

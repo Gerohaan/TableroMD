@@ -35,7 +35,10 @@ export default {
         },
         chart: {
           type: 'bar',
-          height: 430
+          height: 430,
+          toolbar: {
+            show: false
+          }
         },
         plotOptions: {
           bar: {

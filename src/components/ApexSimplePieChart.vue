@@ -12,7 +12,7 @@ export default {
         chart: {
           type: 'pie',
           toolbar: {
-            show: true
+            show: false
           }
         },
         title: {
