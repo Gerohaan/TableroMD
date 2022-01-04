@@ -28,8 +28,8 @@
         :breakpoint="400" 
         class="bg-purple-10 text-black absolute-top"
       >
-        <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
-          <q-list class="bg-purple-10 text-white absolute-top"> 
+        <q-scroll-area class="bg-purple-10" style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
+          <q-list class="bg-purple-10 text-white absolute-top q-pt-lg"> 
            <q-item clickable v-ripple>
               <q-item-section avatar>
                 <q-icon name="home"/>
