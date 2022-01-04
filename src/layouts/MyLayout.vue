@@ -49,7 +49,7 @@
 
               <q-item-section>
                 Administración
-              <q-menu anchor="center right" self="center start">
+              <q-menu anchor="center right" self="top start">
                 <q-item clickable>
                   <q-item-section>Ajustes de inventario</q-item-section>
                 </q-item>
@@ -57,19 +57,9 @@
                   <q-item-section>Productos</q-item-section>
                 </q-item>
                 <q-item clickable>
-                  <q-item-section>Otros</q-item-section>
+                  <q-item-section>Auditoria</q-item-section>
                 </q-item>
               </q-menu>
-              </q-item-section>
-            </q-item>
-
-            <q-item clickable v-ripple>
-              <q-item-section avatar>
-                <q-icon name="receipt_long" />
-              </q-item-section>
-
-              <q-item-section>
-                Auditoria
               </q-item-section>
             </q-item>
 
@@ -90,7 +80,7 @@
 
               <q-item-section>
                 Logistica
-                <q-menu anchor="center right" self="center start">
+                <q-menu anchor="center right" self="top start">
                 <q-item clickable>
                   <q-item-section>Atributos</q-item-section>
                 </q-item>
@@ -210,5 +200,21 @@ export default {
  
 .fade-enter, .fade-leave-active {
   opacity: 0
+}
+.select {
+	background: #fff;
+	width: 100%;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, .16);
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: .2s ease all;
+	margin-bottom: 30px;
+	padding: 30px;
+	position: relative;
+	z-index: 200;
+	border: 2px solid transparent;
 }
 </style>
