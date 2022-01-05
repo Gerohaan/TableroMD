@@ -24,18 +24,11 @@
 </template>
 
 <script>
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-  // optional style for arrows & dots
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
-import CardBase from 'components/CardBase'
 import ListaProveedores from 'components/ListaProveedores'
 import CrearProveedor from 'components/CrearProveedor'
 export default {
   name: 'AddPedido',
   components: {
-    CardBase,
-    VueSlickCarousel,
     ListaProveedores,
     CrearProveedor
   },
@@ -43,8 +36,6 @@ export default {
     return {
       loading: true,
       dialog: true,
-      slide1: 1,
-      slide2: 2
     }
   },
   created () {

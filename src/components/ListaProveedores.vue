@@ -29,7 +29,7 @@
       </tbody>
     </q-markup-table>
           </q-card-section>
-        </q-card>
+    </q-card>
 </template>
 <script>
 export default {
