@@ -5,12 +5,12 @@
     >
       <!-- Lista de Proveedores inicio -->
       <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12 col-xl-8 q-mt-md">
-          <ListaProveedores/>
+          <ListaRemitentes/>
       </div>
       <!-- Lista de Proveedores fin -->
       <!-- Crear Proveedor Inicio -->
       <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12 col-xl-4 q-mt-md">
-        <CrearProveedor/>
+        <CrearRemitente/>
       </div>
       <!-- Crear Proveedor Fin -->
 
@@ -24,13 +24,13 @@
 </template>
 
 <script>
-import ListaProveedores from 'components/ListaProveedores'
-import CrearProveedor from 'components/CrearProveedor'
+import ListaRemitentes from 'components/ListaRemitentes'
+import CrearRemitente from 'components/CrearRemitente'
 export default {
-  name: 'proveedores',
+  name: 'remitentes',
   components: {
-    ListaProveedores,
-    CrearProveedor
+    ListaRemitentes,
+    CrearRemitente
   },
   data () {
     return {

@@ -1,11 +1,11 @@
 <template>
     <q-card square flat>
           <q-card-section align="center">
-            <div class="text-h5 text-bold text-purple-10">Crear proveedor</div>
+            <div class="text-h5 text-bold text-purple-10">Crear remitente</div>
           </q-card-section>
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
-              Tipo de identificación
+              Tipo de identificación*
             </div>
                 <q-select filled >
                   <template v-slot:prepend>
@@ -15,21 +15,11 @@
           </q-card-section>
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
-              Pais
+              Teléfono*
             </div>
                 <q-select filled >
                   <template v-slot:prepend>
-                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="local_convenience_store" />
-                  </template>
-                </q-select>
-          </q-card-section>
-          <q-card-section class="q-pa-md">
-            <div class="text-left text-purple-10 text-weight-medium">
-              Departamento
-            </div>
-                <q-select filled >
-                  <template v-slot:prepend>
-                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="map" />
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="phone" />
                   </template>
                 </q-select>
           </q-card-section>
@@ -45,6 +35,16 @@
           </q-card-section>
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
+              Barrio
+            </div>
+                <q-input filled >
+                  <template v-slot:prepend>
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="public" />
+                  </template>
+                </q-input>
+          </q-card-section>
+          <q-card-section class="q-pa-md">
+            <div class="text-left text-purple-10 text-weight-medium">
               Dirección
             </div>
                 <q-input filled >
@@ -53,26 +53,15 @@
                   </template>
                 </q-input>
           </q-card-section>
-          <q-separator color="purple-10" class="q-ma-md" />
           <q-card-section class="q-pa-md">
             <div class="text-left text-purple-10 text-weight-medium">
-              Regimen de IVA*
+              Correo
             </div>
-                <q-select filled >
+                <q-input filled >
                   <template v-slot:prepend>
-                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="receipt_long" />
+                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="email" />
                   </template>
-                </q-select>
-          </q-card-section>
-          <q-card-section class="q-pa-md">
-            <div class="text-left text-purple-10 text-weight-medium">
-              Tipo de persona*
-            </div>
-                <q-select filled >
-                  <template v-slot:prepend>
-                    <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="group" />
-                  </template>
-                </q-select>
+                </q-input>
           </q-card-section>
           <q-card-section class="q-pa-md" align="right">
                  <q-btn style="background-color: #2e0742;" class="text-white" label="Limpiar" no-caps/>
@@ -82,17 +71,10 @@
 </template>
 <script>
 export default {
-  name: 'CrearProveedor',
+  name: 'CrearRemitente',
   props: {
     bgColor: {
       default: 'linear-gradient( 135deg, #FFFFFF 10%, #FFFFFF 40%)'
-    }
-  },
-  data() {
-    return {
-      tipoIdentificacion: [
-        'NIT', 'Cédula de ciudadanía', 'Pasaporte', 'Cédula de extranjería', 'Permiso de permanecia'
-      ]
     }
   }
 }
