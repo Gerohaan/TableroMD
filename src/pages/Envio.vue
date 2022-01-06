@@ -24,7 +24,7 @@
                                                 <img src="../../public\IconosEnvio\guia.svg">
                                             </q-avatar>
                                             </q-card-section>
-                                            <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
+                                            <q-card-section class="q-pt-none q-mt-none q-pb-none q-mb-none q-pl-none" align="left">
                                             <div class="text-h6" align="left">1234567890</div>
                                             <div align="left">$9,99</div>
                                             <div class="text-purple-10" align="left">Con recaudo</div>
@@ -39,12 +39,12 @@
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="white" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-white" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Activo</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -52,16 +52,16 @@
                             </div>  
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Fecha de creación</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\fecha.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">22/12/2021</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -69,16 +69,16 @@
                             </div> 
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Fecha de entrega (aprox.)</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\fecha.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">22/12/2021</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -86,16 +86,17 @@
                             </div> 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Dirección</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\direccion_1.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div align="text-subtitle1 left">Antioquia, Medellín</div>
+                                            <div class="text-h6" align="left">Cll 10 #10-20, Apartamento 201</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -111,16 +112,19 @@
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Remitente</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\remitente.svg">
+                                            </q-avatar>
                                             </q-card-section>
-                                            <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <q-card-section class="q-pt-none q-mt-none q-mb-none q-pb-none q-pl-none" align="left">
+                                            <div class="text-h6" align="left">Nombre remitente</div>
+                                            <div class="left" align="left">319 368 2312</div>
+                                            <div align="left">correo@correo.co</div>
+                                            <div class="" align="left">Medellín, Cll 10 #9-8</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -130,16 +134,19 @@
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Destinatario</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\destinatario.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Nombre destinatario</div>
+                                            <div class="left" align="left">319 368 2312</div>
+                                            <div align="left">correo@correo.co</div>
+                                            <div class="" align="left">Medellín, Cll 10 #9-8</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -149,16 +156,16 @@
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Transportadora</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\servientrega_1.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Servientrega</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -183,51 +190,51 @@
                     <q-card-section>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                <q-card square class="q-ma-sm shadow-4 bg-light-green-12 text-white">
+                                    <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Recogido</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                <q-card square class="q-ma-sm shadow-4 bg-light-green-12 text-white">
+                                    <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Programado</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                <q-card square class="q-ma-sm shadow-4 bg-light-green-12 text-white">
+                                    <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Entregado</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -236,34 +243,34 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                <q-card square class="q-ma-sm shadow-4 bg-red text-white">
+                                    <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Novedad</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                <q-card square class="q-ma-sm shadow-4 bg-red text-white">
+                                    <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">Cancelado</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -289,34 +296,34 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                <q-card style="background-color: #2e0742;" square class="q-ma-sm shadow-4 text-white">
+                                    <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">En camino</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                <q-card style="background-color: #2e0742;" square class="q-ma-sm shadow-4 text-white">
+                                    <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-avatar rounded>
+                                                <img src="../../public\IconosEnvio\activo.svg">
+                                            </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-h6" align="left">En zona de distribución</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
