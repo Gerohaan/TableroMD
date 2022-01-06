@@ -182,7 +182,6 @@
         <!--
           aqui puede ir un avatar o identificacion de usuario
           -->
-          
       </q-drawer>
 
     <q-page-container>
