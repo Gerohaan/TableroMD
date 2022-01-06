@@ -25,9 +25,9 @@
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-none q-pb-none q-mb-none q-pl-none" align="left">
-                                            <div class="text-h6" align="left">1234567890</div>
-                                            <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div style="margin-top:-5px;" class="text-h6" align="left">1234567890</div>
+                                            <div style="margin-top:-5px;" align="left">$9,99</div>
+                                            <div style="margin-top:-5px;" class="text-purple-10" align="left">Con recaudo</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -95,8 +95,8 @@
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div align="text-subtitle1 left">Antioquia, Medellín</div>
-                                            <div class="text-h6" align="left">Cll 10 #10-20, Apartamento 201</div>
+                                            <div style="margin-top:-5px;" align="text-subtitle1 left">Antioquia, Medellín</div>
+                                            <div style="margin-top:-5px;" class="text-h6" align="left">Cll 10 #10-20, Apartamento 201</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -111,20 +111,20 @@
                     <q-card-section>
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                <q-card square class="q-ma-sm shadow-4">
+                                <q-card square class="q-ma-sm q-pb-none shadow-4">
                                     <div class="text-overline text-purple-10 q-ml-md" align="left">Remitente</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
-                                            <q-card-section class="q-pt-xs">
+                                            <q-card-section class="q-pt-xs q-mb-none">
                                             <q-avatar rounded>
                                                 <img src="../../public\IconosEnvio\remitente.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-none q-mb-none q-pb-none q-pl-none" align="left">
-                                            <div class="text-h6" align="left">Nombre remitente</div>
-                                            <div class="left" align="left">319 368 2312</div>
-                                            <div align="left">correo@correo.co</div>
-                                            <div class="" align="left">Medellín, Cll 10 #9-8</div>
+                                            <div style="margin-top:-15px;" class="text-subtitle1 text-bold" align="left">Nombre remitente</div>
+                                            <div style="margin-top:-2px;" class="left" align="left">319 368 2312</div>
+                                            <div style="margin-top:-1px;" align="left">correo@correo.co</div>
+                                            <div style="margin-top:-1px; margin-bottom:-4px;" align="left">Medellín, Cll 10 #9-8</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -133,20 +133,20 @@
                         </div>
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                <q-card square class="q-ma-sm shadow-4">
+                                <q-card square class="q-ma-sm q-pb-none shadow-4">
                                     <div class="text-overline text-purple-10 q-ml-md" align="left">Destinatario</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
-                                            <q-card-section class="q-pt-xs">
+                                            <q-card-section class="q-pt-xs q-mb-none">
                                             <q-avatar rounded>
                                                 <img src="../../public\IconosEnvio\destinatario.svg">
                                             </q-avatar>
                                             </q-card-section>
-                                            <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">Nombre destinatario</div>
-                                            <div class="left" align="left">319 368 2312</div>
-                                            <div align="left">correo@correo.co</div>
-                                            <div class="" align="left">Medellín, Cll 10 #9-8</div>
+                                            <q-card-section class="q-pt-none q-mt-none q-mb-none q-pb-none q-pl-none" align="left">
+                                            <div style="margin-top:-15px;" class="text-subtitle1 text-bold" align="left">Nombre destinatario</div>
+                                            <div style="margin-top:-2px;" class="left" align="left">319 368 2312</div>
+                                            <div style="margin-top:-1px;" align="left">correo@correo.co</div>
+                                            <div style="margin-top:-1px; margin-bottom:-4px;" class="" align="left">Medellín, Cll 10 #9-8</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -165,7 +165,7 @@
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">Servientrega</div>
+                                            <div style="margin-top:-5px;" class="text-h6" align="left">Servientrega</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
