@@ -352,9 +352,7 @@
             </div>
         </div>
   
-       
-      <div>
-    
+      <div>  
   </div>
       
   </q-page>
@@ -364,7 +362,6 @@
 export default {
   name: 'Envio',
   components: {
-    
   },
   data () {
     return {

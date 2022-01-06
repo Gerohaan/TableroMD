@@ -162,76 +162,48 @@
               <div class="text-left text-purple-10 text-weight-medium">
                 Vendedor
               </div>
-                <q-carousel
-                  v-model="slide1"
-                  transition-prev="slide-right"
-                  transition-next="slide-left"
-                  animated
-                  control-type="push" 
-                  control-color="purple-10"
-                  padding
-                  arrows
-                  height="200px"
-                  class="bg-white"
-                >
-                <q-carousel-slide :name="1" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Vendedor
+               <carousel navigationClickTargetSize="0" paginationSize="5" perPage="3" speed="300" :paginationEnabled="false" :navigationEnabled="true">
+                <slide class="q-pa-md">
+                   <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre Vendedor
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
+                      <q-card-section class="bg-purple-10" align="center">
+                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                        <div class="text-center text-white text-caption q-pa-md">
+                          Nombre vendedor
                         </div>
                       </q-card-section>
                     </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Vendedor
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Vendedor
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </q-carousel-slide>
-                <q-carousel-slide :name="2" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Vendedor
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Vendedor
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Vendedor
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </q-carousel-slide>
-                </q-carousel>
-           
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre Vendedor
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre Vendedor
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+               </carousel>
           </q-card-section>
         </q-card>
         <!-- Carrusel Vendedor fin --> 
@@ -241,76 +213,41 @@
               <div class="text-left text-purple-10 text-weight-medium">
                 Domiciliario/Transportadora
               </div>
-                <q-carousel
-                  v-model="slide2"
-                  transition-prev="slide-right"
-                  transition-next="slide-left"
-                  animated
-                  control-type="push" 
-                  control-color="purple-10"
-                  padding
-                  arrows
-                  height="200px"
-                  class="bg-white"
-                >
-                <q-carousel-slide :name="1" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
+                <carousel navigationClickTargetSize="0" paginationSize="5" perPage="3" speed="300" :paginationEnabled="false" :navigationEnabled="true">
+                <slide class="q-pa-md">
+                  <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre Domiciliario
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                   <q-card square>
+                    <q-card-section class="bg-purple-10" align="center">
+                      <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
+                      <div class="text-center text-white text-caption q-pa-md">
+                        Nombre Domiciliario
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
                     <q-card square>
-                      <q-card-section class="bg-purple-10" align="center">
-                        <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
-                        <div class="text-center text-white text-caption q-pa-md">
-                          Nombre Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    
-                  </div>
-                </q-carousel-slide>
-                <q-carousel-slide :name="2" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Domiciliario
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </q-carousel-slide>
-                </q-carousel>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre Domiciliario
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                  
+                </slide>
+               </carousel>
            
           </q-card-section>
         </q-card>
@@ -450,79 +387,50 @@
         <q-card square flat class="col col-md-5 col-lg-5 col-xs-12 col-sm-12 col-xl-5">
            <q-card-section class="q-pa-md">
               <div class="text-left text-purple-10 text-weight-medium">
-                Medio de Pago
+                Medio de pago
               </div>
-                <q-carousel
-                  v-model="slide2"
-                  transition-prev="slide-right"
-                  transition-next="slide-left"
-                  animated
-                  control-type="push" 
-                  control-color="purple-10"
-                  padding
-                  arrows
-                  height="200px"
-                  class="bg-white"
-                >
-                <q-carousel-slide :name="1" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
-                    <q-card square>
+                <carousel navigationClickTargetSize="0" paginationSize="5" perPage="3" speed="300" :paginationEnabled="false" :navigationEnabled="true">
+                <slide class="q-pa-md">
+                   <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Medio pago
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
                       <q-card-section class="bg-purple-10" align="center">
                         <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
                         <div class="text-center text-white text-caption q-pa-md">
-                          Medio Pago
+                          Medio pago
                         </div>
                       </q-card-section>
                     </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Medio Pago
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Medio Pago
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    
-                  </div>
-                </q-carousel-slide>
-                <q-carousel-slide :name="2" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Medio Pago
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Medio Pago
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Medio Pago
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </q-carousel-slide>
-                </q-carousel>
-           
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Medio pago
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Medio pago
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+               </carousel>
           </q-card-section>
         </q-card>
 
@@ -531,77 +439,48 @@
               <div class="text-left text-purple-10 text-weight-medium">
                 Canal
               </div>
-                <q-carousel
-                  v-model="slide2"
-                  transition-prev="slide-right"
-                  transition-next="slide-left"
-                  animated
-                  control-type="push" 
-                  control-color="purple-10"
-                  padding
-                  arrows
-                  height="200px"
-                  class="bg-white"
-                >
-                <q-carousel-slide :name="1" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
-                    <q-card square>
+                <carousel navigationClickTargetSize="0" paginationSize="5" perPage="3" speed="300" :paginationEnabled="false" :navigationEnabled="true">
+                <slide class="q-pa-md">
+                   <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre canal
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
                       <q-card-section class="bg-purple-10" align="center">
                         <q-avatar color="white" size="xl" font-size="30px" text-color="purple-10" icon="person"/>
                         <div class="text-center text-white text-caption q-pa-md">
-                          Nombre Canal
+                          Nombre canal
                         </div>
                       </q-card-section>
                     </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Canal
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                     <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Canal
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    
-                  </div>
-                </q-carousel-slide>
-                <q-carousel-slide :name="2" class="column no-wrap">
-                  <div class="row fit justify-center items-center q-gutter-xs q-col-gutter no-wrap">
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Canal
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Canal
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                    <q-card square>
-                      <q-card-section class="bg-white" align="center">
-                        <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
-                        <div class="text-center text-purple-10 text-bold text-caption q-pa-md">
-                          Nombre Canal
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </q-carousel-slide>
-                </q-carousel>
-           
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre canal
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+                <slide class="q-pa-md">
+                  <q-card square>
+                    <q-card-section class="bg-white tex-purple-10" align="center">
+                      <q-avatar color="purple-10" size="xl" font-size="30px" text-color="white" icon="person"/>
+                      <div class="text-center text-purple-10 text-caption q-pa-md">
+                        Nombre canal
+                      </div>
+                    </q-card-section>
+                  </q-card>
+                </slide>
+               </carousel>
           </q-card-section>
         </q-card>
 
@@ -656,23 +535,31 @@
 </template>
 
 <script>
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import { Carousel, Slide } from 'vue-carousel';
+//import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+//import 'swiper/swiper-bundle.css'
+//import { Carousel3d, Slide } from 'vue-carousel-3d';
+//import VueSlickCarousel from 'vue-slick-carousel'
+//import 'vue-slick-carousel/dist/vue-slick-carousel.css'
   // optional style for arrows & dots
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+//import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import CardBase from 'components/CardBase'
 export default {
   name: 'AddPedido',
   components: {
     CardBase,
-    VueSlickCarousel,
+    Carousel,
+    Slide
+    //VueSlickCarousel,
+    //Swiper,
+    //SwiperSlide
   },
   data () {
     return {
       loading: true,
       dialog: true,
       slide1: 1,
-      slide2: 2
+      slide2: 2,
     }
   },
   created () {
@@ -692,4 +579,10 @@ export default {
     background-color: #E6E6E6;
     border: 0;
   }
+  .label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
