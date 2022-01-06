@@ -59,7 +59,7 @@
           <q-list class="bg-purple-10 text-white absolute-top q-pt-lg"> 
            <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="home"/>
+                  <img  width="22px" height="22px" src="../../public\IconosMenu\inicio_2.svg">
               </q-item-section>
 
               <q-item-section>
@@ -71,7 +71,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="manage_accounts"/>
+                <img width="22px" height="22px" src="../../public\IconosMenu\administracion_1.svg">
               </q-item-section>
 
               <q-item-section>
@@ -92,7 +92,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="view_in_ar" />
+                <img width="22px" height="22px" src="../../public\IconosMenu\inventario_1.svg">
               </q-item-section>
 
               <q-item-section>
@@ -102,7 +102,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="subject" />
+                <img width="22px" height="22px" src="../../public\IconosMenu\logistica_1.svg">
               </q-item-section>
 
               <q-item-section>
@@ -129,7 +129,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="offline_pin" />
+                <img width="22px" height="22px" src="../../public\IconosMenu\ordenes_1.svg">
               </q-item-section>
 
               <q-item-section>
@@ -139,7 +139,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="fact_check" />
+                <img width="22px" height="22px" src="../../public\IconosMenu\pedidos_1.svg">
               </q-item-section>
 
               <q-item-section>
@@ -149,7 +149,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="event_available" />
+                <img width="22px" height="22px" src="../../public\IconosMenu\reportes_1.svg">
               </q-item-section>
 
               <q-item-section>
@@ -159,7 +159,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="people_alt" />
+                <img width="22px" height="22px" src="../../public\IconosMenu\Terceros.svg">
               </q-item-section>
 
               <q-item-section>
@@ -169,7 +169,7 @@
 
             <q-item clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="logout" />
+                <img width="22px" height="22px" src="../../public\IconosMenu\salir_1.svg">
               </q-item-section>
 
               <q-item-section>
