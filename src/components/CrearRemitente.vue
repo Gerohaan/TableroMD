@@ -7,7 +7,7 @@
             <div class="text-left text-purple-10 text-weight-medium">
               Tipo de identificación*
             </div>
-                <q-select filled >
+                <q-select :options="tipoIdentificacion" filled >
                   <template v-slot:prepend>
                     <q-avatar color="purple-10" size="sm" font-size="17px" text-color="white" icon="badge" />
                   </template>
@@ -75,6 +75,13 @@ export default {
   props: {
     bgColor: {
       default: 'linear-gradient( 135deg, #FFFFFF 10%, #FFFFFF 40%)'
+    }
+  },
+  data() {
+    return {
+      tipoIdentificacion: [
+        'NIT', 'Cédula de ciudadanía'
+      ]
     }
   }
 }

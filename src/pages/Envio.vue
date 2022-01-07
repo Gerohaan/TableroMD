@@ -34,7 +34,7 @@
                                 </q-card>
                             </div>  
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                <q-card square class="q-ma-sm shadow-4 bg-light-green-12 text-white">
+                                <q-card style="background-color: #9FE032;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
@@ -179,7 +179,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="q-pa-sm q-mt-md q-mb-md" align="right">
-                    <q-btn style="background-color: #2e0742;" class="text-white text-weight-light" label="Editar" no-caps/>
+                    <q-btn style="background-color: #4D3C6B;" class="text-white text-weight-light" label="Editar" no-caps/>
                     <q-btn class="q-ml-sm text-weight-light" color="purple-10" label="Guardar" no-caps/>
                 </div>
             </div>
@@ -190,13 +190,13 @@
                     <q-card-section>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4 bg-light-green-12 text-white">
+                                <q-card style="background-color: #9FE032;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
                                             <q-avatar rounded>
-                                                <img src="../../public\IconosEnvio\activo.svg">
+                                                <img src="../../public\IconosEnvio\recogido.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
@@ -207,13 +207,13 @@
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4 bg-light-green-12 text-white">
+                                <q-card style="background-color: #9FE032;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
                                             <q-avatar rounded>
-                                                <img src="../../public\IconosEnvio\activo.svg">
+                                                <img src="../../public\IconosEnvio\programado.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
@@ -224,13 +224,13 @@
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4 bg-light-green-12 text-white">
+                                <q-card style="background-color: #9FE032;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
                                             <q-avatar rounded>
-                                                <img src="../../public\IconosEnvio\activo.svg">
+                                                <img src="../../public\IconosEnvio\Entregado.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
@@ -243,13 +243,13 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4 bg-red text-white">
+                                <q-card style="background-color: #D82323;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
                                             <q-avatar rounded>
-                                                <img src="../../public\IconosEnvio\activo.svg">
+                                                <img src="../../public\IconosEnvio\Novedad.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
@@ -260,13 +260,13 @@
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card square class="q-ma-sm shadow-4 bg-red text-white">
+                                <q-card style="background-color: #D82323;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
                                             <q-avatar rounded>
-                                                <img src="../../public\IconosEnvio\activo.svg">
+                                                <img src="../../public\IconosEnvio\Cancelado.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
@@ -296,13 +296,13 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card style="background-color: #2e0742;" square class="q-ma-sm shadow-4 text-white">
+                                <q-card style="background-color: #4D3C6B;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
                                             <q-avatar rounded>
-                                                <img src="../../public\IconosEnvio\activo.svg">
+                                                <img src="../../public\IconosEnvio\EnCamino.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
@@ -313,13 +313,13 @@
                                 </q-card>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                                <q-card style="background-color: #2e0742;" square class="q-ma-sm shadow-4 text-white">
+                                <q-card style="background-color: #4D3C6B;" square class="q-ma-sm shadow-4 text-white">
                                     <div class="text-overline q-ml-md" align="left">Estado</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
                                             <q-avatar rounded>
-                                                <img src="../../public\IconosEnvio\activo.svg">
+                                                <img src="../../public\IconosEnvio\Distribucion.svg">
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">

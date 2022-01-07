@@ -1,62 +1,69 @@
 <template>
   <q-layout view="lHh LpR fFf">
-
-    <q-header class="bg-white text-purple-10" elevated>
-      <q-toolbar>
-
-      <!--
-        notice shrink property since we are placing it
-        as child of QToolbar
-      -->
-      
-      <q-btn 
-        flat 
-        round 
-        dense 
-        @click="leftDrawerOpen = !leftDrawerOpen"
-        aria-label="Menu" color="purple-10"
-        icon="menu" size="lg" />
-        <q-space></q-space>
-        <q-tabs shrink align="right"> 
+<q-header elevated class="bg-white text-grey-8" height-hint="64">
+      <q-toolbar class="GPL__toolbar" style="height: 64px">
+        <q-btn
+          flat
+          dense
+          round
+          aria-label="Menu"
+          @click="leftDrawerOpen = !leftDrawerOpen"
+          color="purple-10"
+          icon="menu"
+          class="q-mx-md"
+        />
+        <q-space />
+        <q-tabs shrink align="right">
         <q-btn
             rounded 
-            no-caps
+            no-caps 
+            no-wrap
             color="purple-10"
             size="md"
             label="Inicio"
             class="q-mr-sm text-weight-regular"
         />
-        <q-btn
+        <div class="q-gutter-sm row items-center no-wrap">
+          <q-btn
             rounded 
-            no-caps
+            no-caps 
+            no-wrap
             color="purple-10"
-            size="md"
-            label="Centro de ayuda" 
+            size="md" 
+            label="Centro de ayuda"
             class="q-mr-sm text-weight-regular"
         />
-        <q-btn outline flat round icon="notifications" size="lg" class="q-mr-sm">
-          <div class="q-mt-md">
-              <q-badge rounded floating color="purple-10" class="q-mt-md q-ml-xs">4</q-badge>
-          </div>
+          <q-btn flat rounded>
+          <q-avatar square size="md">
+            <img src="../../public\IconosMenu\campana.svg">
+              <div class="q-mt-md">
+                <q-badge rounded floating color="purple-10" class="">4</q-badge>
+              </div>
+          </q-avatar>
         </q-btn>
-        <q-btn class="q-ml-sm" size="sm" no-caps outline color="purple-10">
+        <q-btn class="q-ml-sm" size="sm" no-caps no-wrap outline color="purple-10">
           <div class="text-subtitle1">Nombre de usuario</div>
           <q-icon class="q-ml-sm q-mr-none" left size="3em" name="account_circle" />
         </q-btn>
-      </q-tabs>
-    </q-toolbar>
-      </q-header>
-
+        </div>
+        </q-tabs>
+      </q-toolbar>
+    </q-header>
+    
      <q-drawer
         v-model="leftDrawerOpen"
-        show-if-above
         side="left"
         :width="220"
         :breakpoint="400" 
-        class="bg-purple-10 text-black absolute-top"
+        class="bg-purple-10 text-black absolute-top" 
+        show-if-above
+        :mini="miniState"
+        @mouseover="miniState = false"
+        @mouseout="miniState = true"
+        mini-to-overlay
       >
         <q-scroll-area class="bg-purple-10" style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
-          <q-list class="bg-purple-10 text-white absolute-top q-pt-lg"> 
+          <q-list padding class="bg-purple-10 text-white absolute-top q-pt-lg"> 
            <q-item clickable v-ripple>
               <q-item-section avatar>
                   <img  width="22px" height="22px" src="../../public\IconosMenu\inicio_2.svg">
@@ -199,11 +206,12 @@ export default {
   name: 'MyLayout',
   data () {
     return {
-      leftDrawerOpen: false
+      leftDrawerOpen: true,
+      miniState: true,
     }
   },
   methods: {
-    openURL
+    
   }
 }
 </script>

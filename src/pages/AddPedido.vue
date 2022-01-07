@@ -291,14 +291,6 @@
         <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-2">
           <q-card-section class="q-pa-sm">
               <div class="text-left text-purple-10 text-weight-medium">
-                Total
-              </div>
-              <q-input filled/>
-          </q-card-section>
-        </q-card>
-        <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-2">
-          <q-card-section class="q-pa-sm">
-              <div class="text-left text-purple-10 text-weight-medium">
                 Impuesto
               </div>
               <q-input filled/>
@@ -308,6 +300,14 @@
           <q-card-section class="q-pa-sm">
               <div class="text-left text-purple-10 text-weight-medium">
                 Descuento
+              </div>
+              <q-input filled/>
+          </q-card-section>
+        </q-card>
+         <q-card square flat class="col col-md-2 col-lg-2 col-xs-12 col-sm-12 col-xl-2">
+          <q-card-section class="q-pa-sm">
+              <div class="text-left text-purple-10 text-weight-medium">
+                Total
               </div>
               <q-input filled/>
           </q-card-section>
