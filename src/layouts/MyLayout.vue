@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh LpR fFf">
+  <q-layout class="app-font" view="lHh LpR fFf">
 <q-header elevated class="bg-white text-grey-8" height-hint="64">
       <q-toolbar class="GPL__toolbar" style="height: 64px">
         <q-btn
@@ -62,8 +62,8 @@
         @mouseout="miniState = true"
         mini-to-overlay
       >
-        <q-scroll-area class="bg-purple-10" style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
-          <q-list padding class="bg-purple-10 text-white absolute-top q-pt-lg"> 
+        <q-scroll-area class="bg-purple-10" style="height: calc(100% - 150px); margin-top: 150px;">
+          <q-list padding class="bg-purple-10 text-white absolute-top"> 
            <q-item clickable v-ripple>
               <q-item-section avatar>
                   <img  width="22px" height="22px" src="../../public\IconosMenu\inicio_2.svg">
@@ -216,18 +216,15 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.my-menu-link {
- color: white;
- background: #F78812;
-}
-</style>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;800;900&display=swap');
+.app-font {
+ font-family: 'Work Sans', sans-serif;
+}
 .fade-enter-active, .fade-leave-active {
   transition-property: opacity;
   transition-duration: .25s;
-}
- 
+} 
 .fade-enter-active {
   transition-delay: .25s;
 }
