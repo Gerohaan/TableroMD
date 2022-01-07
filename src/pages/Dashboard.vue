@@ -4,80 +4,80 @@
       class="row q-col-gutter-md q-px-md q-pt-md q-pa-none justify-center"
     >
        <q-tabs shrink>
-         <q-card flat align="center">
+         <q-card no-wrap flat align="center">
           <q-card-section>
-            <q-btn outline round color="purple-10" size="25px">
+            <q-btn no-wrap outline round color="purple-10" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img src="../../public\IconosPrincipales\venta_online.svg"/>
               </q-avatar>
             </q-btn>
-            <div class="text-subtitle2">Ventas Online</div>
+            <div class="text-subtitle2 text-no-wrap">Ventas Online</div>
           </q-card-section>
         </q-card>
-        <q-card  flat align="center">
+        <q-card no-wrap  flat align="center">
             <q-card-section>
-            <q-btn outline round color="purple-10" size="25px">
+            <q-btn no-wrap outline round color="purple-10" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="50px" width="30px" src="../../public\IconosPrincipales\VentaPOS.svg"/>
               </q-avatar>
             </q-btn>
-              <div class="text-subtitle2">Ventas POS</div>
+              <div class="text-subtitle2 text-no-wrap">Ventas POS</div>
             </q-card-section>
           </q-card>
-        <q-card  flat align="center">
+        <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="purple-10" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img src="../../public\IconosPrincipales\CrearTercero.svg"/>
               </q-avatar>
             </q-btn>
-            <div class="text-subtitle2">Crear tercero</div>
+            <div class="text-subtitle2 text-no-wrap">Crear tercero</div>
           </q-card-section>
         </q-card>
-        <q-card  flat align="center">
+        <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="purple-10" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="40px" width="40px" src="../../public\IconosPrincipales\Producto.svg"/>
               </q-avatar>
             </q-btn>
-            <div class="text-subtitle2">Producto</div>
+            <div class="text-subtitle2 text-no-wrap">Producto</div>
           </q-card-section>
         </q-card>
-        <q-card  flat align="center">
+        <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="purple-10" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img src="../../public\IconosPrincipales\GestionarEnvio.svg"/>
               </q-avatar>
             </q-btn>
-            <div class="text-subtitle2">Gestionar envío</div>
+            <div class="text-subtitle2 text-no-wrap">Gestionar envío</div>
           </q-card-section>
         </q-card>
-        <q-card flat align="center">
+        <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="purple-10" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="40px" width="40px" src="../../public\IconosPrincipales\Reportes.svg"/>
               </q-avatar>
             </q-btn>
-            <div class="text-subtitle2">Reportes</div>
+            <div class="text-subtitle2 text-no-wrap">Reportes</div>
           </q-card-section>
         </q-card>
-        <q-card  flat align="center">
+        <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="xl" icon="" />
-            <div class="text-subtitle2">Acceso #7</div>
+          <q-btn no-wrap outline round color="purple-10" size="xl" icon="" />
+            <div class="text-subtitle2 text-no-wrap">Acceso #7</div>
           </q-card-section>
         </q-card>
-        <q-card  flat align="center">
+        <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="purple-10" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="55px" width="45px" src="../../public\IconosPrincipales\Perfil.svg"/>
               </q-avatar>
             </q-btn>
-            <div class="text-subtitle2">Perfil</div>
+            <div class="text-subtitle2 text-no-wrap">Perfil</div>
           </q-card-section>
         </q-card>
       </q-tabs>
