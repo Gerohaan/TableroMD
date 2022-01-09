@@ -17,12 +17,9 @@
     "quasar": "^1.16.0",
     "swiper": "^7.4.1",
     "vue-apexcharts": "^1.6.0",
-    "vue-awesome-swiper": "^4.1.1",
     "vue-carousel": "^0.18.0",
-    "vue-carousel-3d": "^1.0.1",
     "vue-i18n": "^8.18.2",
-    "vue-simple-carousel": "^1.1.0",
-    "vue-slick-carousel": "^1.0.6"
+    "vue-simple-carousel": "^1.1.0"
   },
   "devDependencies": {
     "@quasar/app": "^2.2.10",

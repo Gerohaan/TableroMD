@@ -55,15 +55,15 @@
         side="left"
         :width="220"
         :breakpoint="400" 
-        class="bg-purple-10 text-black absolute-top" 
+        class="bg-purple-10 text-white absolute-top" 
+        @mouseout="miniState = true"
+        mini-to-overlay
         show-if-above
         :mini="miniState"
         @mouseover="miniState = false"
-        @mouseout="miniState = true"
-        mini-to-overlay
       >
-        <q-scroll-area class="bg-purple-10" style="height: calc(100% - 150px); margin-top: 150px;">
-          <q-list padding class="bg-purple-10 text-white absolute-top"> 
+        <q-scroll-area class="bg-purple-10" style="height: calc(100% - 63px); margin-top: 63px;"> 
+          <q-list padding> 
            <q-item clickable v-ripple>
               <q-item-section avatar>
                   <img  width="22px" height="22px" src="../../public\IconosMenu\inicio_2.svg">
@@ -75,7 +75,6 @@
             </q-item>
            
             <!------------------------------------------->
-
             <q-item clickable v-ripple>
               <q-item-section avatar>
                 <img width="22px" height="22px" src="../../public\IconosMenu\administracion_1.svg">
@@ -189,6 +188,8 @@
         <!--
           aqui puede ir un avatar o identificacion de usuario
           -->
+          
+          
       </q-drawer>
 
     <q-page-container>
