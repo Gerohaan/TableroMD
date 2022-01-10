@@ -1,16 +1,16 @@
 <template>
   <q-layout class="app-font" view="lHh LpR fFf">
-<q-header elevated class="bg-white text-grey-8" height-hint="64">
-      <q-toolbar class="GPL__toolbar" style="height: 64px">
+<q-header elevated class="bg-white" height-hint="64">
+      <q-toolbar style="height: 64px">
         <q-btn
           flat
           dense
           round
           aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
+          @click="navBarView()"
           color="purple-10"
           icon="menu"
-          class="q-mx-md"
+          class="q-mx-md" size="lg"
         />
         <q-space />
         <q-tabs shrink align="right">
@@ -50,21 +50,26 @@
       </q-toolbar>
     </q-header>
     
-     <q-drawer
+
+       <q-drawer
         v-model="leftDrawerOpen"
-        side="left"
+        show-if-above 
+        bordered
+        class="bg-purple text-white"
         :width="220"
         :breakpoint="400" 
-        class="bg-purple-10 text-white absolute-top" 
-        @mouseout="miniState = true"
-        mini-to-overlay
-        show-if-above
-        :mini="miniState"
-        @mouseover="miniState = false"
-      >
-        <q-scroll-area class="bg-purple-10" style="height: calc(100% - 63px); margin-top: 63px;"> 
+        :mini="miniState" 
+      > 
+     
+       <q-scroll-area class="bg-purple-10" style="height: calc(100% - -25px); margin-top: -25px;"> 
           <q-list padding> 
-           <q-item clickable v-ripple>
+          <div align="center" class="bg-white q-pa-none">
+                  <br>
+                  <img class="q-pa-sm" height="53px" width="60px" src="../../public\onex-logo.png">
+          </div>
+           
+
+           <q-item clickable v-ripple class="q-mt-md">
               <q-item-section avatar>
                   <img  width="22px" height="22px" src="../../public\IconosMenu\inicio_2.svg">
               </q-item-section>
@@ -74,7 +79,6 @@
               </q-item-section>
             </q-item>
            
-            <!------------------------------------------->
             <q-item clickable v-ripple>
               <q-item-section avatar>
                 <img width="22px" height="22px" src="../../public\IconosMenu\administracion_1.svg">
@@ -110,10 +114,9 @@
               <q-item-section avatar>
                 <img width="22px" height="22px" src="../../public\IconosMenu\logistica_1.svg">
               </q-item-section>
-
               <q-item-section>
                 Logistica
-                <q-menu anchor="center right" self="top start">
+              <q-menu anchor="center right" self="top start">
                 <q-item clickable>
                   <q-item-section>Atributos</q-item-section>
                 </q-item>
@@ -129,7 +132,7 @@
                 <q-item clickable>
                   <q-item-section>Formas de Pago</q-item-section>
                 </q-item>
-              </q-menu>
+                </q-menu>
               </q-item-section>
             </q-item>
 
@@ -183,7 +186,9 @@
               </q-item-section>
             </q-item>
           </q-list>
-        </q-scroll-area>
+        </q-scroll-area> 
+        
+        
 
         <!--
           aqui puede ir un avatar o identificacion de usuario
@@ -207,12 +212,15 @@ export default {
   name: 'MyLayout',
   data () {
     return {
-      leftDrawerOpen: true,
+      leftDrawerOpen: false,
       miniState: true,
     }
   },
   methods: {
-    
+    navBarView() {
+      //this.leftDrawerOpen = !this.leftDrawerOpen
+      this.miniState = !this.miniState
+    }
   }
 }
 </script>
@@ -233,20 +241,42 @@ export default {
 .fade-enter, .fade-leave-active {
   opacity: 0
 }
-.select {
-	background: #fff;
-	width: 100%;
-	box-shadow: 0px 0px 0px rgba(0, 0, 0, .16);
-	border-radius: 10px;
-	cursor: pointer;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	transition: .2s ease all;
-	margin-bottom: 30px;
-	padding: 30px;
-	position: relative;
-	z-index: 200;
-	border: 2px solid transparent;
+</style>
+<style>
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
 }
 </style>

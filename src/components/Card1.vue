@@ -4,7 +4,7 @@
       class="my-card text-white bg-purple-10 shadow-7"
     >
       <q-card-section>
-        <div class="text-h5 text-bold" vertical>First Card</div>
+        <div class="text-h5 text-bold" vertical>Ventas</div>
       </q-card-section>
      <q-card-section class="q-pt-none" align="center">
          <div class="text-h5">
@@ -12,7 +12,9 @@
          </div>
       </q-card-section>
      <q-card-actions align="right">
-          <select name="" id="" style="width: 60px" class="q-mb-sm q-mr-sm">
+          <button class="q-mb-sm q-mr-sm q-pa-none">Ver más</button>
+          <q-space />
+           <select name="" id="" style="width: 60px" class="q-mb-sm q-mr-sm">
             <option value="">Dia</option>
           </select>
         

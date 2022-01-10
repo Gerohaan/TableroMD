@@ -1,7 +1,7 @@
 <template>
   <q-page class="container" style="background: #EFEFEF;">
     <div class="row q-col-gutter-md q-px-md q-pt-md q-pa-none justify-center">
-     <p class="text-h4 text-bold text-purple-10 q-pt-xl">Agregar Nuevo Pedido</p> 
+     <p class="text-h4 text-bold text-purple-10 q-pt-xl">Agregar nuevo pedido</p> 
     </div>
      <q-form>
       <div class="row q-col-gutter-md q-px-md q-py-md">
