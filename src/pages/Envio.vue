@@ -323,7 +323,7 @@
                                             </q-avatar>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                            <div class="text-h6" align="left">En zona de distribución</div>
+                                            <div class="text-h6 text-no-wrap" align="left">En zona de distribución</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
