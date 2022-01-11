@@ -51,7 +51,7 @@
     </q-header>
     
 
-       <q-drawer
+       <q-drawer 
         v-model="leftDrawerOpen"
         show-if-above 
         bordered
@@ -59,9 +59,10 @@
         :width="220"
         :breakpoint="400" 
         :mini="miniState" 
+        
       > 
-     
-       <q-scroll-area class="bg-purple-10" style="height: calc(100% - -25px); margin-top: -25px;"> 
+      
+       <q-scroll-area class="bg-purple-10" style="height: calc(100% - -25px); margin-top: -25px; z-index:2;"> 
           <q-list padding> 
           <div align="center" class="bg-white q-pa-none">
                   <br>
@@ -206,10 +207,13 @@
   </q-layout>
 </template>
 
+
 <script>
-import { openURL } from 'quasar'
 export default {
   name: 'MyLayout',
+  components: {
+    
+  },
   data () {
     return {
       leftDrawerOpen: false,
