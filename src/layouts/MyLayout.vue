@@ -15,7 +15,7 @@
         <q-space />
         <q-tabs shrink align="right">
         <q-btn
-            rounded 
+           
             no-caps 
             no-wrap
             color="primary"
@@ -25,7 +25,7 @@
         />
         <div class="q-gutter-sm row items-center no-wrap">
           <q-btn
-            rounded 
+           
             no-caps 
             no-wrap
             color="primary"
@@ -33,7 +33,7 @@
             label="Centro de ayuda"
             class="q-mr-sm text-weight-regular"
         />
-          <q-btn flat rounded>
+          <q-btn flat>
           <q-avatar square size="md">
             <img src="../../public\IconosMenu\campana.svg">
               <div class="q-mt-md">
