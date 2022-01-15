@@ -19,11 +19,11 @@ export default {
           text: 'Categorias mas vendidas',
           align: 'left',
           style: {
-            color: '#4A148C'
+            color: '#6532BA'
           }
         },
         labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E', 'Team F'],
-        colors: ['#4A148C','#212121','#4A148C','#212121','#4A148C', '#212121'],
+        colors: ['#6532BA','#212121','#6532BA','#212121','#6532BA', '#212121'],
         responsive: [{
           breakpoint: 480,
           options: {
@@ -37,7 +37,7 @@ export default {
         }],
         legend: {
           labels: {
-            colors: '#4A148C'
+            colors: '#6532BA'
           }
         }
       }

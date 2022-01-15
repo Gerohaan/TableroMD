@@ -1,12 +1,12 @@
 <template>
     <q-card square flat>
           <q-card-section class="q-pa-md" align="center">
-            <div class="text-h5 text-bold text-purple-10">Proveedores</div>
+            <div class="text-h5 text-bold text-primary">Proveedores</div>
           </q-card-section>
           <q-card-section>
               <q-markup-table flat>
       <thead>
-        <tr class="text-bold text-purple-10">
+        <tr class="text-bold text-primary">
           <th class="text-left">#</th>
           <th class="text-right">Tipo de ID</th>
           <th class="text-right">ID</th>

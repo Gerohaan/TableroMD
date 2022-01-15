@@ -15,7 +15,7 @@ export default {
         name: 'Caracas'
       }],
       chartOptions: {
-        colors: ['#4A148C', '#212121'],
+        colors: ['#6532BA', '#212121'],
         animations: {
           enabled: true,
           easing: 'easeinout',
@@ -25,12 +25,12 @@ export default {
           text: 'Ciudades',
           align: 'left',
           style: {
-            color: '#4A148C'
+            color: '#6532BA'
           }
         },
         legend: {
           labels: {
-            colors: '#4A148C'
+            colors: '#6532BA'
           }
         },
         chart: {
@@ -59,20 +59,20 @@ export default {
         stroke: {
           show: true,
           width: 1,
-          colors: ['#4A148C']
+          colors: ['#6532BA']
         },
         xaxis: {
           categories: [2001, 2002, 2003],
           labels: {
             style: {
-              colors: '#4A148C'
+              colors: '#6532BA'
             }
           }
         },
         yaxis: {
           labels: {
             style: {
-              colors: '#4A148C'
+              colors: '#6532BA'
             }
           }
         }

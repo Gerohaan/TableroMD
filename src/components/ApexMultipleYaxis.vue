@@ -11,7 +11,7 @@ export default {
         name: 'Income',
         type: 'column',
         data: [1.4, 2, 2.5, 1.5, 2.5, 2.8, 3.8, 4.6],
-        color: "#4A148C"
+        color: "#6532BA"
       }, {
         name: 'Cashflow',
         type: 'column',
@@ -37,14 +37,14 @@ export default {
           text: 'Grafica 1',
           align: 'left',
           style: {
-            color: '#4A148C'
+            color: '#6532BA'
           }
         },
         xaxis: {
           categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
           labels: {
             style: {
-              colors: '#4A148C'
+              colors: '#6532BA'
             }
           }
         },
@@ -55,11 +55,11 @@ export default {
             },
             axisBorder: {
               show: true,
-              color: '#4A148C'
+              color: '#6532BA'
             },
             labels: {
               style: {
-                colors: '#4A148C'
+                colors: '#6532BA'
               }
             },
             tooltip: {
@@ -74,11 +74,11 @@ export default {
             },
             axisBorder: {
               show: true,
-              color: '#4A148C'
+              color: '#6532BA'
             },
             labels: {
               style: {
-                colors: '#4A148C'
+                colors: '#6532BA'
               }
             }
           },
@@ -90,11 +90,11 @@ export default {
             },
             axisBorder: {
               show: true,
-              color: '#4A148C'
+              color: '#6532BA'
             },
             labels: {
               style: {
-                colors: '#4A148C'
+                colors: '#6532BA'
               }
             }
           }
@@ -111,7 +111,7 @@ export default {
           horizontalAlign: 'left',
           offsetX: 40,
           labels: {
-            colors: '#4A148C'
+            colors: '#6532BA'
           }
         }
       }

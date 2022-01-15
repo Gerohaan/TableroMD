@@ -6,7 +6,7 @@
        <q-tabs shrink>
          <q-card no-wrap flat align="center">
           <q-card-section>
-            <q-btn no-wrap outline round color="purple-10" size="25px">
+            <q-btn no-wrap outline round color="primary" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img src="../../public\IconosPrincipales\venta_online.svg"/>
               </q-avatar>
@@ -16,7 +16,7 @@
         </q-card>
         <q-card no-wrap  flat align="center">
             <q-card-section>
-            <q-btn no-wrap outline round color="purple-10" size="25px">
+            <q-btn no-wrap outline round color="primary" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="50px" width="30px" src="../../public\IconosPrincipales\VentaPOS.svg"/>
               </q-avatar>
@@ -26,7 +26,7 @@
           </q-card>
         <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn no-wrap outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="primary" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img src="../../public\IconosPrincipales\CrearTercero.svg"/>
               </q-avatar>
@@ -36,7 +36,7 @@
         </q-card>
         <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn no-wrap outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="primary" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="40px" width="40px" src="../../public\IconosPrincipales\Producto.svg"/>
               </q-avatar>
@@ -46,7 +46,7 @@
         </q-card>
         <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn no-wrap outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="primary" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img src="../../public\IconosPrincipales\GestionarEnvio.svg"/>
               </q-avatar>
@@ -56,7 +56,7 @@
         </q-card>
         <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn no-wrap outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="primary" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="40px" width="40px" src="../../public\IconosPrincipales\Reportes.svg"/>
               </q-avatar>
@@ -66,13 +66,13 @@
         </q-card>
         <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn no-wrap outline round color="purple-10" size="xl" icon="" />
+          <q-btn no-wrap outline round color="primary" size="xl" icon="" />
             <div class="text-subtitle2 text-no-wrap">Acceso #7</div>
           </q-card-section>
         </q-card>
         <q-card no-wrap flat align="center">
           <q-card-section>
-          <q-btn no-wrap outline round color="purple-10" size="25px">
+          <q-btn no-wrap outline round color="primary" size="25px">
               <q-avatar size="50px" rounded>
                 <q-img height="55px" width="45px" src="../../public\IconosPrincipales\Perfil.svg"/>
               </q-avatar>
@@ -150,7 +150,7 @@ export default {
   },
   created () {
     this.$q.loading.show({
-      backgroundColor: 'purple-10',
+      backgroundColor: 'primary',
       delay: 0
     })
     setTimeout(() => {

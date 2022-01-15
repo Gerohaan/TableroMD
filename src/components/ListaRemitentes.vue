@@ -1,12 +1,12 @@
 <template>
     <q-card square flat>
           <q-card-section class="q-pa-md" align="center">
-            <div class="text-h5 text-bold text-purple-10">Remitentes</div>
+            <div class="text-h5 text-bold text-primary">Remitentes</div>
           </q-card-section>
           <q-card-section>
               <q-markup-table flat>
       <thead>
-        <tr class="text-bold text-purple-10">
+        <tr class="text-bold text-primary">
           <th class="text-left">ID</th>
           <th class="text-left">Nombre</th>
           <th class="text-left">Dirección</th>

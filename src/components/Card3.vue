@@ -1,7 +1,7 @@
 <template>
  
       <q-card square
-      class="my-card text-white bg-purple-10 shadow-7"
+      class="my-card text-white bg-primary shadow-7"
     >
       <q-card-section>
         <div class="text-h5 text-bold" vertical>Pedidos</div>

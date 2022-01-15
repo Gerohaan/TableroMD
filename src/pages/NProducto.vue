@@ -6,18 +6,18 @@
                     <q-card-section>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" align="left">
-                                <p class="text-h4 text-weight-bold text-purple-10">Nombre del producto</p>
+                                <p class="text-h4 text-weight-bold text-primary">Nombre del producto</p>
                                <q-card-section horizontal class="q-mt-xs" style="margin-top:-15px;">
                                     <div class="text-h5 text-weight-bold">
                                          Ref:
                                     </div>
-                                     <div class="text-h5 q-ml-sm text-purple-10">
+                                     <div class="text-h5 q-ml-sm text-primary">
                                           1892      
                                     </div>
                                </q-card-section>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" align="right">
-                                <q-btn padding="xs lg" style="background-color: #4D3C6B;" class="text-white text-weight-light" label="Editar" no-caps/>
+                                <q-btn padding="xs lg" color="secondary" class="text-white text-weight-light" label="Editar" no-caps/>
                             </div>
                         </div>
                         <div class="row q-pa-lg q-ma-xs" align="center">
@@ -79,8 +79,8 @@
                                 </q-avatar>
                                 </q-card-section>
                                 <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                <div class="text-h6 text-bold text-purple-10" align="left">Nombre de bodega</div>
-                                <div style="margin-top:-5px;" class="text-h6 text-purple-10" align="left">15 Und.</div>
+                                <div class="text-h6 text-bold text-primary" align="left">Nombre de bodega</div>
+                                <div style="margin-top:-5px;" class="text-h6 text-primary" align="left">15 Und.</div>
                                 </q-card-section>
                             </q-card-section>
                         </q-card-section>
@@ -96,8 +96,8 @@
                                 </q-avatar>
                                 </q-card-section>
                                 <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                 <div class="text-h6 text-bold text-purple-10" align="left">Nombre de bodega</div>
-                                 <div style="margin-top:-5px;" class="text-h6 text-purple-10" align="left">3 Und.</div>
+                                 <div class="text-h6 text-bold text-primary" align="left">Nombre de bodega</div>
+                                 <div style="margin-top:-5px;" class="text-h6 text-primary" align="left">3 Und.</div>
                                 </q-card-section>
                             </q-card-section>
                         </q-card-section>
@@ -113,8 +113,8 @@
                                 </q-avatar>
                                 </q-card-section>
                                 <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
-                                 <div class="text-h6 text-bold text-purple-10" align="left">Nombre de bodega</div>
-                                 <div style="margin-top:-5px;" class="text-h6 text-purple-10" align="left">12 Und.</div>
+                                 <div class="text-h6 text-bold text-primary" align="left">Nombre de bodega</div>
+                                 <div style="margin-top:-5px;" class="text-h6 text-primary" align="left">12 Und.</div>
                                 </q-card-section>
                             </q-card-section>
                         </q-card-section>

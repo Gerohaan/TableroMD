@@ -1,7 +1,7 @@
 <template>
   
       <q-card square style="cursor:pointer;" 
-      class="my-card text-purple-10 bg-white shadow-7"
+      class="my-card text-primary bg-white shadow-7"
     >
       <q-card-section>
         <div class="text-h5 text-bold">Utilidades</div>
@@ -13,7 +13,7 @@
          </div>
       </q-card-section>
       <q-card-actions align="right">
-          <select class="bg-purple-10 text-white q-mb-sm q-mr-sm" name="" id="" style="width: 60px">
+          <select class="bg-primary text-white q-mb-sm q-mr-sm" name="" id="" style="width: 60px">
             <option value="">Dia</option>
           </select>
       </q-card-actions>

@@ -3,7 +3,7 @@
      <div
         class="row q-col-gutter-md q-px-md q-pt-xl q-pa-none q-mb-none justify-center"
         >
-            <p class="text-h5 text-bold text-purple-10 q-pt-xl q-mb-none">
+            <p class="text-h5 text-bold text-primary q-pt-xl q-mb-none">
                 Envio # 1234567890
             </p> 
         </div>
@@ -16,7 +16,7 @@
                         <div class="row">  
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 q-ma-none">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <div class="text-overline text-primary q-ml-md" align="left">Guía</div>
                                     <q-card-section>           
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
@@ -27,7 +27,7 @@
                                             <q-card-section class="q-pt-none q-mt-none q-pb-none q-mb-none q-pl-none" align="left">
                                             <div style="margin-top:-5px;" class="text-h6" align="left">1234567890</div>
                                             <div style="margin-top:-5px;" align="left">$9,99</div>
-                                            <div style="margin-top:-5px;" class="text-purple-10" align="left">Con recaudo</div>
+                                            <div style="margin-top:-5px;" class="text-primary" align="left">Con recaudo</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section>
@@ -52,7 +52,7 @@
                             </div>  
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Fecha de creación</div>
+                                    <div class="text-overline text-primary q-ml-md" align="left">Fecha de creación</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
@@ -69,7 +69,7 @@
                             </div> 
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Fecha de entrega (aprox.)</div>
+                                    <div class="text-overline text-primary q-ml-md" align="left">Fecha de entrega (aprox.)</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
@@ -86,7 +86,7 @@
                             </div> 
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Dirección</div>
+                                    <div class="text-overline text-primary q-ml-md" align="left">Dirección</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
@@ -112,7 +112,7 @@
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm q-pb-none shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Remitente</div>
+                                    <div class="text-overline text-primary q-ml-md" align="left">Remitente</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs q-mb-none">
@@ -134,7 +134,7 @@
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm q-pb-none shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Destinatario</div>
+                                    <div class="text-overline text-primary q-ml-md" align="left">Destinatario</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs q-mb-none">
@@ -156,7 +156,7 @@
                         <div class="row">    
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <div class="text-overline text-purple-10 q-ml-md" align="left">Transportadora</div>
+                                    <div class="text-overline text-primary q-ml-md" align="left">Transportadora</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
@@ -179,8 +179,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="q-pa-sm q-mt-md q-mb-md" align="right">
-                    <q-btn style="background-color: #4D3C6B;" class="text-white text-weight-light" label="Editar" no-caps/>
-                    <q-btn class="q-ml-sm text-weight-light" color="purple-10" label="Guardar" no-caps/>
+                    <q-btn class="text-white text-weight-light" color="secondary" label="Editar" no-caps/>
+                    <q-btn class="q-ml-sm text-weight-light" color="primary" label="Guardar" no-caps/>
                 </div>
             </div>
         </div>
@@ -278,16 +278,16 @@
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <!-- <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <!-- <div class="text-overline text-primary q-ml-md" align="left">Guía</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="primary" size="xl"/>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
                                             <div class="text-h6" align="left">1234567890</div>
                                             <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-primary" align="left">Con recaudo</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section> -->
@@ -331,16 +331,16 @@
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                                 <q-card square class="q-ma-sm shadow-4">
-                                    <!-- <div class="text-overline text-purple-10 q-ml-md" align="left">Guía</div>
+                                    <!-- <div class="text-overline text-primary q-ml-md" align="left">Guía</div>
                                     <q-card-section>
                                         <q-card-section horizontal>
                                             <q-card-section class="q-pt-xs">
-                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="purple-10" size="xl"/>
+                                            <q-icon class="q-ma-sm q-ml-none" name="mark_as_unread" color="primary" size="xl"/>
                                             </q-card-section>
                                             <q-card-section class="q-pt-none q-mt-sm q-pl-none" align="left">
                                             <div class="text-h6" align="left">1234567890</div>
                                             <div align="left">$9,99</div>
-                                            <div class="text-purple-10" align="left">Con recaudo</div>
+                                            <div class="text-primary" align="left">Con recaudo</div>
                                             </q-card-section>
                                         </q-card-section>
                                     </q-card-section> -->
@@ -371,7 +371,7 @@ export default {
   },
   created () {
     this.$q.loading.show({
-      backgroundColor: 'purple-10',
+      backgroundColor: 'primary',
       delay: 0
     })
     setTimeout(() => {

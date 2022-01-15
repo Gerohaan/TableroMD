@@ -9,7 +9,7 @@ export default {
     return {
       series: [44, 55, 41, 17],
       chartOptions: {
-        colors: ['#212121', '#4A148C', '#212121', '#4A148C'],
+        colors: ['#212121', '#6532BA', '#212121', '#6532BA'],
         animations: {
           enabled: true,
           easing: 'easeinout',
@@ -36,7 +36,7 @@ export default {
           text: 'Canales de Venta',
           align: 'left',
           style: {
-            color: '#4A148C'
+            color: '#6532BA'
           }
         },
         labels: ['Apple', 'Mango', 'Orange', 'Watermelon'],
@@ -53,7 +53,7 @@ export default {
         }],
         legend: {
           labels: {
-            colors: '#4A148C'
+            colors: '#6532BA'
           }
         }
       }
