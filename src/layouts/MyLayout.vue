@@ -8,7 +8,7 @@
           round
           aria-label="Menu"
           @click="navBarView()"
-          color="purple-10"
+          color="primary"
           icon="menu"
           class="q-mx-md" size="lg"
         />
@@ -18,7 +18,7 @@
             rounded 
             no-caps 
             no-wrap
-            color="purple-10"
+            color="primary"
             size="md"
             label="Inicio"
             class="q-mr-sm text-weight-regular"
@@ -28,7 +28,7 @@
             rounded 
             no-caps 
             no-wrap
-            color="purple-10"
+            color="primary"
             size="md" 
             label="Centro de ayuda"
             class="q-mr-sm text-weight-regular"
@@ -37,11 +37,11 @@
           <q-avatar square size="md">
             <img src="../../public\IconosMenu\campana.svg">
               <div class="q-mt-md">
-                <q-badge rounded floating color="purple-10" class="">4</q-badge>
+                <q-badge rounded floating color="primary" class="">4</q-badge>
               </div>
           </q-avatar>
         </q-btn>
-        <q-btn class="q-ml-sm" size="sm" no-caps no-wrap outline color="purple-10">
+        <q-btn class="q-ml-sm" size="sm" no-caps no-wrap outline color="primary">
           <div class="text-subtitle1">Nombre de usuario</div>
           <q-icon class="q-ml-sm q-mr-none" left size="3em" name="account_circle" />
         </q-btn>
@@ -62,7 +62,7 @@
         
       > 
       
-       <q-scroll-area class="bg-purple-10" style="height: calc(100% - -25px); margin-top: -25px; z-index:2;"> 
+       <q-scroll-area class="bg-primary" style="height: calc(100% - -25px); margin-top: -25px; z-index:2;"> 
           <q-list padding> 
           <div align="center" class="bg-white q-pa-none">
                   <br>
