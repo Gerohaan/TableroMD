@@ -1,6 +1,6 @@
 <template>
     <q-card square flat>
-          <q-card-section align="center">
+          <q-card-section align="center" class="q-pb-xs">
             <div class="text-h5 text-bold text-primary">Crear proveedor</div>
           </q-card-section>
           <q-card-section class="q-pa-md">
@@ -53,31 +53,46 @@
                   </template>
                 </q-input>
           </q-card-section>
-          <q-separator color="primary" class="q-ma-md" />
-          <q-card-section class="q-pa-md">
-            <div class="text-left text-primary text-weight-medium">
-              Regimen de IVA*
-            </div>
-                <q-select filled >
-                  <template v-slot:prepend>
-                    <q-avatar color="primary" size="sm" font-size="17px" text-color="white" icon="receipt_long" />
-                  </template>
-                </q-select>
-          </q-card-section>
-          <q-card-section class="q-pa-md">
-            <div class="text-left text-primary text-weight-medium">
-              Tipo de persona*
-            </div>
-                <q-select filled >
-                  <template v-slot:prepend>
-                    <q-avatar color="primary" size="sm" font-size="17px" text-color="white" icon="group" />
-                  </template>
-                </q-select>
-          </q-card-section>
-          <q-card-section class="q-pa-md" align="right">
-                 <q-btn class="text-white" color="secondary" label="Limpiar" no-caps/>
-                 <q-btn class="q-ml-sm" color="primary" label="Crear" no-caps/>
-          </q-card-section>
+          <div align="right" class="q-mb-none q-pb-none" style="margin-top:-5.5px; margin-bottom:-4px;">
+              <q-btn
+                color="grey"
+                round
+                flat
+                dense
+                :icon="expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
+                @click="expanded = !expanded" 
+                class="q-mb-none q-pb-none"
+              />
+          </div>
+         <q-slide-transition>
+           <div v-show="expanded">
+            <q-separator color="primary" class="q-ma-md" />
+              <q-card-section class="q-pa-md">
+                <div class="text-left text-primary text-weight-medium">
+                  Regimen de IVA*
+                </div>
+                    <q-select filled >
+                      <template v-slot:prepend>
+                        <q-avatar color="primary" size="sm" font-size="17px" text-color="white" icon="receipt_long" />
+                      </template>
+                    </q-select>
+              </q-card-section>
+              <q-card-section class="q-pa-md">
+                <div class="text-left text-primary text-weight-medium">
+                  Tipo de persona*
+                </div>
+                    <q-select filled >
+                      <template v-slot:prepend>
+                        <q-avatar color="primary" size="sm" font-size="17px" text-color="white" icon="group" />
+                      </template>
+                    </q-select>
+              </q-card-section>
+              <q-card-section class="q-pa-md" align="right">
+                    <q-btn class="text-white" color="secondary" label="Limpiar" no-caps/>
+                    <q-btn class="q-ml-sm" color="primary" label="Crear" no-caps/>
+              </q-card-section>
+           </div>
+         </q-slide-transition>
         </q-card>
 </template>
 <script>
@@ -92,7 +107,8 @@ export default {
     return {
       tipoIdentificacion: [
         'NIT', 'Cédula de ciudadanía', 'Pasaporte', 'Cédula de extranjería', 'Permiso de permanecia', 'Tarjeta de identidad', 'Registro cicil'
-      ]
+      ],
+      expanded: false
     }
   }
 }
