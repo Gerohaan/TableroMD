@@ -54,19 +54,22 @@
        <q-drawer 
         v-model="leftDrawerOpen"
         show-if-above 
+        mini-to-overlay
         bordered
         class="bg-purple text-white"
         :width="220"
         :breakpoint="400" 
         :mini="miniState" 
+        @mouseover="miniState = false"
+        @mouseout="miniState = true"
         
       > 
       
        <q-scroll-area class="bg-primary" style="height: calc(100% - -25px); margin-top: -25px; z-index:2;"> 
           <q-list padding> 
-          <div align="center" class="bg-white q-pa-none">
+          <div align="center" class="bg-white q-pa-none q-pt-sm q-pb-sm">
                   <br>
-                  <img class="q-pa-sm" height="53px" width="60px" src="../../public\onex-logo.png">
+                  <img class="q-pa-sm"  src="../../public\logo-onex.svg">
           </div>
            
 
