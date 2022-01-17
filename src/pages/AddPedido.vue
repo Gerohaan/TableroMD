@@ -160,7 +160,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre Vendedor
                             </div>
                           </q-card-section>
@@ -170,7 +170,7 @@
                         <q-card square>
                             <q-card-section class="bg-primary" align="center">
                               <q-avatar color="white" size="xl" font-size="30px" text-color="primary" icon="person"/>
-                              <div class="text-center text-white text-caption q-pa-md">
+                              <div class="text-center text-white text-caption text-no-wrap q-pa-md">
                                 Nombre vendedor
                               </div>
                             </q-card-section>
@@ -180,7 +180,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre Vendedor
                             </div>
                           </q-card-section>
@@ -190,7 +190,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre Vendedor
                             </div>
                           </q-card-section>
@@ -211,7 +211,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre Domiciliario
                             </div>
                           </q-card-section>
@@ -221,7 +221,7 @@
                         <q-card square>
                           <q-card-section class="bg-primary" align="center">
                             <q-avatar color="white" size="xl" font-size="30px" text-color="primary" icon="person"/>
-                            <div class="text-center text-white text-caption q-pa-md">
+                            <div class="text-center text-white text-caption text-no-wrap q-pa-md">
                               Nombre Domiciliario
                             </div>
                           </q-card-section>
@@ -231,7 +231,7 @@
                           <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre Domiciliario
                             </div>
                           </q-card-section>
@@ -387,7 +387,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Medio pago
                             </div>
                           </q-card-section>
@@ -397,7 +397,7 @@
                         <q-card square>
                             <q-card-section class="bg-primary" align="center">
                               <q-avatar color="white" size="xl" font-size="30px" text-color="primary" icon="person"/>
-                              <div class="text-center text-white text-caption q-pa-md">
+                              <div class="text-center text-white text-caption text-no-wrap q-pa-md">
                                 Medio pago
                               </div>
                             </q-card-section>
@@ -407,7 +407,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Medio pago
                             </div>
                           </q-card-section>
@@ -417,7 +417,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Medio pago
                             </div>
                           </q-card-section>
@@ -437,7 +437,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre canal
                             </div>
                           </q-card-section>
@@ -447,7 +447,7 @@
                         <q-card square>
                             <q-card-section class="bg-primary" align="center">
                               <q-avatar color="white" size="xl" font-size="30px" text-color="primary" icon="person"/>
-                              <div class="text-center text-white text-caption q-pa-md">
+                              <div class="text-center text-white text-caption text-no-wrap q-pa-md">
                                 Nombre canal
                               </div>
                             </q-card-section>
@@ -457,7 +457,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre canal
                             </div>
                           </q-card-section>
@@ -467,7 +467,7 @@
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption q-pa-md">
+                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre canal
                             </div>
                           </q-card-section>
@@ -496,7 +496,7 @@
                     <q-btn
                       outline
                       padding="md"
-                      color="white" 
+                      color="primary" 
                       class="text-primary q-ml-none q-mr-sm">
                      <q-avatar color="primary" size="lg" font-size="20px">
                         <q-img src="../../public\IconoAddProd\no-pago.svg"/>
