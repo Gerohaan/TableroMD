@@ -383,40 +383,48 @@
                       Medio de pago
                     </div>
                       <carousel navigationPrevLabel="<a style='color:#6532BA;'>◀</a>" navigationNextLabel="<a style='color:#6532BA;'>▶</a>" navigationClickTargetSize="0" paginationSize="5" perPage="3" speed="300" :paginationEnabled="false" :navigationEnabled="true">
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
-                          <q-card-section class="bg-white tex-primary" align="center">
-                            <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
+                          <q-card-section class="bg-primary tex-white" align="center">
+                            <q-avatar color="primary" size="xl" font-size="20px">
+                              <q-img src="../../public\IconoAddProd\efectivo.svg"/>
+                            </q-avatar>
+                            <div class="text-center text-white text-caption text-no-wrap q-pa-md">
                               Medio pago
                             </div>
                           </q-card-section>
                         </q-card>
                       </slide>
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
-                            <q-card-section class="bg-primary" align="center">
-                              <q-avatar color="white" size="xl" font-size="30px" text-color="primary" icon="person"/>
-                              <div class="text-center text-white text-caption text-no-wrap q-pa-md">
+                            <q-card-section class="bg-white" align="center">
+                              <q-avatar color="white" size="xl" font-size="20px">
+                                <q-img src="../../public\IconoAddProd\Bancolombia.svg"/>
+                              </q-avatar>
+                              <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                                 Medio pago
                               </div>
                             </q-card-section>
                           </q-card>
                       </slide>
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
-                            <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
+                            <q-avatar color="white" size="xl" font-size="20px">
+                              <q-img src="../../public\IconoAddProd\Nequi.svg"/>
+                            </q-avatar>
                             <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Medio pago
                             </div>
                           </q-card-section>
                         </q-card>
                       </slide>
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
-                            <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
+                            <q-avatar color="white" size="xl" font-size="20px">
+                              <q-img src="../../public\IconoAddProd\facebook.svg"/>
+                            </q-avatar>
                             <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Medio pago
                             </div>
@@ -433,37 +441,43 @@
                       Canal
                     </div>
                       <carousel navigationPrevLabel="<a style='color:#6532BA;'>◀</a>" navigationNextLabel="<a style='color:#6532BA;'>▶</a>" navigationClickTargetSize="0" paginationSize="5" perPage="3" speed="300"  :paginationEnabled="false" :navigationEnabled="true">
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
-                          <q-card-section class="bg-white tex-primary" align="center">
-                            <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
-                            <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
+                          <q-card-section class="bg-primary text-white" align="center">
+                            <q-avatar color="white" size="xl" font-size="20px">
+                              <q-img src="../../public\IconoAddProd\facebook.svg"/>
+                            </q-avatar>
+                            <div class="text-center text-white text-caption text-no-wrap q-pa-md">
                               Nombre canal
                             </div>
                           </q-card-section>
                         </q-card>
                       </slide>
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
                             <q-card-section class="bg-primary" align="center">
-                              <q-avatar color="white" size="xl" font-size="30px" text-color="primary" icon="person"/>
+                              <q-avatar color="white" size="xl" font-size="20px">
+                                <q-img src="../../public\IconoAddProd\instagram.svg"/>
+                              </q-avatar>
                               <div class="text-center text-white text-caption text-no-wrap q-pa-md">
                                 Nombre canal
                               </div>
                             </q-card-section>
                           </q-card>
                       </slide>
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
-                            <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>
+                            <q-avatar color="white" size="xl" font-size="20px">
+                                <q-img src="../../public\IconoAddProd\whatsapp.svg"/>
+                              </q-avatar>
                             <div class="text-center text-primary text-caption text-no-wrap q-pa-md">
                               Nombre canal
                             </div>
                           </q-card-section>
                         </q-card>
                       </slide>
-                      <slide class="q-pa-md">
+                      <slide class="q-pa-xs q-ma-xs">
                         <q-card square>
                           <q-card-section class="bg-white tex-primary" align="center">
                             <q-avatar color="primary" size="xl" font-size="30px" text-color="white" icon="person"/>

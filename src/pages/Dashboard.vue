@@ -122,7 +122,6 @@
           <apex-bar-charts-grouped></apex-bar-charts-grouped>
         </card-base>
       </div>
-    
     </div>
   </q-page>
 </template>

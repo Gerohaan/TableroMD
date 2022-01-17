@@ -206,7 +206,6 @@
         <router-view />
       </transition>
     </q-page-container>
-
   </q-layout>
 </template>
 
