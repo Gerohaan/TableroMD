@@ -7,7 +7,7 @@
           dense
           round
           aria-label="Menu"
-          @click="navBarView()"
+          @click="leftDrawerOpen = !leftDrawerOpen"
           color="primary"
           icon="menu"
           class="q-mx-md" size="lg"
@@ -226,7 +226,7 @@ export default {
   methods: {
     navBarView() {
       //this.leftDrawerOpen = !this.leftDrawerOpen
-      this.miniState = !this.miniState
+      //this.miniState = !this.miniState
     }
   }
 }

@@ -8,23 +8,23 @@
       <thead>
         <tr class="text-bold text-primary">
           <th class="text-left">#</th>
-          <th class="text-right">Tipo de ID</th>
-          <th class="text-right">ID</th>
-          <th class="text-right">Nombre</th>
-          <th class="text-right">Teléfono</th>
-          <th class="text-right">Dirección</th>
-          <th class="text-right">Detalles</th>
+          <th class="text-left">Tipo de ID</th>
+          <th class="text-left">ID</th>
+          <th class="text-left">Nombre</th>
+          <th class="text-left">Teléfono</th>
+          <th class="text-left">Dirección</th>
+          <th class="text-left">Detalles</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="(n, index) in 10" :key="index">
           <td class="text-left">{{ index }}</td>
-          <td class="text-right">C.C</td>
-          <td class="text-right">10739457366</td>
-          <td class="text-right">Carlos Duran</td>
-          <td class="text-right">3108462844</td>
-          <td class="text-right">Calle 10 #87-3</td>
-          <td class="text-right"><a href="#">Ver más</a></td>
+          <td class="text-left">C.C</td>
+          <td class="text-left">10739457366</td>
+          <td class="text-left">Carlos Duran</td>
+          <td class="text-left">3108462844</td>
+          <td class="text-left">Calle 10 #87-3</td>
+          <td class="text-left"><a href="#">Ver más</a></td>
         </tr>
       </tbody>
     </q-markup-table>
