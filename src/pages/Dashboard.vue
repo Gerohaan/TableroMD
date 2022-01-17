@@ -122,6 +122,9 @@
           <apex-bar-charts-grouped></apex-bar-charts-grouped>
         </card-base>
       </div>
+      <div class="tooltip">Hover over me
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
     </div>
   </q-page>
 </template>

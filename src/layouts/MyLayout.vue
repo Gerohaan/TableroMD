@@ -90,7 +90,7 @@
 
               <q-item-section>
                 Administración
-              <q-menu anchor="center right" self="top start">
+              <q-menu anchor="center right" self="top start" square>
                 <q-item clickable>
                   <q-item-section>Ajustes de inventario</q-item-section>
                 </q-item>
@@ -120,7 +120,7 @@
               </q-item-section>
               <q-item-section>
                 Logistica
-              <q-menu anchor="center right" self="top start">
+              <q-menu anchor="center right" self="top start" square>
                 <q-item clickable>
                   <q-item-section>Atributos</q-item-section>
                 </q-item>
@@ -284,5 +284,14 @@ export default {
   border-width: 5px;
   border-style: solid;
   border-color: transparent black transparent transparent;
+}
+</style>
+<style>
+.triangulo {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid #000;
+    border-bottom: 50px solid transparent;
 }
 </style>
